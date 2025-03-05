@@ -1,0 +1,2094 @@
+{
+  "TCDataAccess.Kernel.Domain.Entities.ModuleEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": [
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.ModuleEntity, TCDataAccess",
+      "Id": 1,
+      "Name": "Модуль Шугаев",
+      "VersionConfigId": 15,
+      "Guid": "66f2b415-87f3-ef11-a44a-005056824592"
+    }
+  ],
+  "TCDataAccess.Kernel.Domain.Entities.Subcategories.SubcategoryEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": [
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Subcategories.SubcategoryEntity, TCDataAccess",
+      "Id": 62270,
+      "OrderId": 1630000,
+      "ModuleId": 1,
+      "SubcatTypeID": "Tasks",
+      "Description": "Пустая категория",
+      "Details": "",
+      "CategoryId": 1221,
+      "Entity": "Задача",
+      "SendButton": "Поставить задачу",
+      "SrokName": "Срок",
+      "AllowPriority": true,
+      "AllowNewTaskPriority": true,
+      "AllowNewTaskSeparate": true,
+      "AllowNewTaskRecurrenceSetup": true,
+      "ShowMainRoute": true,
+      "AdaptColumnCount": true,
+      "ShowPinToChatIcon": true,
+      "AllowNullTask": false,
+      "DisableTaskDescription": false,
+      "AllowMultiFinished": false,
+      "IsProlongOrderedTime": false,
+      "RestrictDueDateEdit": false,
+      "RequireSubtaskFinish": true,
+      "SubtasksOnly": false,
+      "RestrictPerformerRemove": false,
+      "DefaultCopySubscribers": true,
+      "OrderedTimeCanBeLocked": false,
+      "CommentTreeSubTasks": false,
+      "OwnerCanChangeText": true,
+      "AllowHTMLTaskText": false,
+      "AllowChangeDuration": true,
+      "NewTaskMessage": "Поступила новая задача",
+      "UseChatTemplate": false,
+      "CustomerID": 1,
+      "ForInvitations": false,
+      "AdMinCanEditText": true,
+      "RestrictedSubscribtion": false,
+      "DisableMail": false,
+      "StepSignsFromSysRobot": false,
+      "DeclineSignatureFromSysRobot": false,
+      "AllowSetTaskStartTime": false,
+      "AllowSetTimeParamsInPast": false,
+      "AllowStepsInOverdueTask": false,
+      "AllowChangePerformersInOverdueTask": false,
+      "ShowTaskCountInTitle": false,
+      "SubscriberCanEditText": false,
+      "EnableCommentsEdit": true,
+      "NotLoadGridAndShowSearch": false,
+      "IsDictionary": false,
+      "ShowResources": false,
+      "AllowChat": false,
+      "PerfOnCreateAssignedText": "Назначение исполнителя при постановке: ",
+      "AnyoneCanEditText": false,
+      "AllowOrderedTimeOnlyInWorkPeriod": false,
+      "ClearPerformersOnCopyMove": false,
+      "AllowOrderedTimeOnlyInWorkTime": false,
+      "ExcludeFromOverdueReport": false,
+      "InactiveTaskWarningTime": 0,
+      "CanDeleteLastPerformer": true,
+      "TaskHelpersTimeMode": "Disabled",
+      "TaskHelpersGradeMode": "Disabled",
+      "TaskHelpersClosedFactForbid": false,
+      "AllowFactInFuture": false,
+      "ShowAllTaskCountInTree": false,
+      "NotifyAboutOverdueTaskOnlyResponsibleGroup": false,
+      "AllowChangeTaskOwner": true,
+      "TaskHelpersTimeVisible": true,
+      "Smart25": false,
+      "Smart50": false,
+      "Smart75": false,
+      "Smart100": false,
+      "MinSrokMode": 0,
+      "DefaultDurationMode": 0,
+      "RecommendedDueDateMode": 0,
+      "FillNewTaskStartTimeWithCreatedDate": false,
+      "UseEPTemplate": false,
+      "RejectSubTasksWhenRejected": false,
+      "UseShortNewTaskView": false,
+      "EnableSms": false,
+      "Guid": "f5aca34c-1bf4-ef11-a9c7-d017c2d04b3d",
+      "DefaultViewType": "grid",
+      "EnableComments": true,
+      "ShowOverdueTaskCountInTree": true,
+      "ShowNewTaskCountInTree": true,
+      "TaskStartTimeName": "Начало работы",
+      "ParentTaskDescriptionReference": "Текст родительской задачи",
+      "ForbidUploadFilesIntoClosedTasks": false,
+      "NotifyResponsibleStateChange": false,
+      "AllowImagesInTaskText": false,
+      "IsPortal": false,
+      "IsNotice": false,
+      "HelpersAction": "AddAsPerformer",
+      "FixTaskText": false,
+      "ForbidMovingTasks": false,
+      "TaskHelperGradeNecessary": false,
+      "FullPath": "Tests\\u2044Тесты Разработка\\u2044Шугаев\\u2044Пустая категория",
+      "DocxTemplateProtectionLevel": 1,
+      "FullPathIds": "489\\u20441051\\u20441221\\u204462270",
+      "IsForProjects": false,
+      "IsForProjectTasks": false,
+      "GiveRightsOnlyToADGroups": false,
+      "ClassicCalendar": false,
+      "NotAllowCommentWithoutRecipients": false,
+      "AllowHTMLCommentsText": false,
+      "AllowGroupSubcription": false,
+      "NotShowChangeDueDateCount": false,
+      "AllowChangeTaskStartTimeInClosedTasks": false,
+      "DoNotSelectOwner": false,
+      "AutoDeletePrevVersionsOfFiles": false,
+      "AllowSignatureRevoke": false,
+      "AllowSignatureRevokeByAcceptors": false,
+      "TaskHelpersPlanTimeMode": "Disabled",
+      "NotifyOwnerOnWorkAmountExcess": true,
+      "HideSystemComments": false,
+      "ProjectDefaultViewPreset": "Months",
+      "ProjectShortDateView": false,
+      "DisableTasksMove": false,
+      "TasksEncryptionMode": "None",
+      "DenyPostCommentsInClosedTasks": false,
+      "ForwardCommentsToAllHelpers": false,
+      "AddSubscriberText": "Добавлен подписчик: ",
+      "AddSubscribersText": "Добавлены подписчики: ",
+      "OneFMainVisibilityMode": "ShowAll",
+      "IsSystemSubcat": false,
+      "AllowDeleteFiles": "Allow",
+      "IsResourceReservation": false,
+      "ShowTasksTextAsHtml": false,
+      "IsTasksLayoutSubcat": false,
+      "IsForSurveys": false,
+      "AutoMarkQuestions": true,
+      "MultiFinishAction": "DoNothing",
+      "TaskLikesEnabled": false,
+      "ReactionsEnabled": false,
+      "ConsisImplementEnable": false,
+      "ConsisImplementDisableAlerts": false,
+      "EnableTaskViewsCounter": false,
+      "EnableTaskUserCommentsCounter": false,
+      "ResourceManagementEnabled": false,
+      "PlanningResponsibleMode": "User",
+      "PlanningResponsibleModeNotNullable": "User",
+      "AllowSignatureRevokeByOwner": false,
+      "AllowSignatureRevokeByRequester": false,
+      "NeedAcceptPlannedResources": false,
+      "NeedAcceptPlannedPerformer": false,
+      "ConsisImplementFinishMainTask": false,
+      "ConfidentialMode": "Disable",
+      "ShowExtParamsAfterBlocks": false,
+      "ForRootTasks": false,
+      "ShowAllCommentsFromTaskTreeByDefault": false,
+      "SeveralDecompositions": false,
+      "MtfDefaultTemplateVisibilityMode": "Visible",
+      "IsForProjectForceTasks": false,
+      "RMSyncPlans": false,
+      "ShowCommentAttachments": true,
+      "IsWikiSubcat": false,
+      "MsOfficeInteractionSettingId": 17785,
+      "CreateSystemFileVersionsOnSignatureSign": false,
+      "DenyEnterComments": false,
+      "IsCalendar": false,
+      "TasksIsNotOverdue": false,
+      "RMDisablePlansAutocalculation": false,
+      "RMAdjustAbsoultePlanToManual": true,
+      "IsSaveUsersSettingsForGrid": true,
+      "IsPinnedToChats": false,
+      "ShowTasksInTerminalStatusInCalendar": false,
+      "DisableTasksCopyFromSubcategory": false,
+      "DisableTasksCopyToSubcategory": false,
+      "ShowLoadingIndicator": false,
+      "TaskTextSearchType": "Framing",
+      "DisplaySubscribeDuringNewTask": true,
+      "DisplayNotifyDuringNewTask": true,
+      "DisplayTaskSubcategoryPath": true,
+      "DisplayTaskStartDate": true,
+      "DisplayTaskDelegateButton": true,
+      "DisplayTaskChangeDueDateButton": true,
+      "DisplayTaskId": true,
+      "DisplayTaskState": true,
+      "DisplayEmptyAttachments": false,
+      "AttachFilesPermission": "Allow",
+      "PerformerMode": "Allow",
+      "SrokMode": "Required",
+      "LocalizedDescriptionId": 428080,
+      "LocalizeTaskText": false,
+      "SurveyType": 0,
+      "NotUseNewTaskForm": false,
+      "AutosaveEP": false,
+      "AutoReadCommentsWhenTaskCloses": false,
+      "AutoReadCommentsWhenTaskRejects": false,
+      "AllowSetSinglePerformer": false,
+      "SearchInExtParamByDefault": false,
+      "IsTechnicalWorksNow": false,
+      "EnableHtmlCKEditor": false,
+      "SendPrevEpValueOnSave": true,
+      "LimitEpHistoryChange": "No",
+      "HideQuickCreateInEp": false,
+      "HideCreateButtonInAllCategoryViews": false
+    }
+  ],
+  "TCDataAccess.Kernel.Domain.Entities.RevisionRepository.VersionConfigEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": [
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.RevisionRepository.VersionConfigEntity, TCDataAccess",
+      "Id": 3,
+      "Version": "Первая",
+      "Date": "2025-02-28T16:58:26",
+      "Link": "ver1",
+      "ModuleId": 1,
+      "Guid": "901d1a17-dcf5-ef11-a9ca-d017c2d04b3d"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.RevisionRepository.VersionConfigEntity, TCDataAccess",
+      "Id": 10,
+      "Version": "Вторая",
+      "Date": "2025-03-03T14:35:30",
+      "Link": "module1/Вторая",
+      "ModuleId": 1,
+      "Guid": "3f441a9c-23f8-ef11-a9ca-d017c2d04b3d"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.RevisionRepository.VersionConfigEntity, TCDataAccess",
+      "Id": 11,
+      "Version": "Третья",
+      "Date": "2025-03-03T14:36:23",
+      "Link": "module1/Третья",
+      "ModuleId": 1,
+      "Guid": "bcd14abb-23f8-ef11-a9ca-d017c2d04b3d"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.RevisionRepository.VersionConfigEntity, TCDataAccess",
+      "Id": 12,
+      "Version": "Четвертая",
+      "Date": "2025-03-03T14:46:04",
+      "Link": "module1/Четвертая",
+      "ModuleId": 1,
+      "Guid": "b163c415-25f8-ef11-a9ca-d017c2d04b3d"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.RevisionRepository.VersionConfigEntity, TCDataAccess",
+      "Id": 13,
+      "Version": "1.0",
+      "Date": "2025-03-05T13:21:39",
+      "Link": "module1/1.0",
+      "ModuleId": 1,
+      "Guid": "fda1d99f-abf9-ef11-a9ca-d017c2d04b3d"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.RevisionRepository.VersionConfigEntity, TCDataAccess",
+      "Id": 14,
+      "Version": "1.4",
+      "Date": "2025-03-05T14:21:14",
+      "Link": "module1/1.4",
+      "ModuleId": 1,
+      "Guid": "ef869ef2-b3f9-ef11-a9ca-d017c2d04b3d"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.RevisionRepository.VersionConfigEntity, TCDataAccess",
+      "Id": 15,
+      "Version": "1.9",
+      "Date": "2025-03-05T17:08:45",
+      "Link": "module1/1.9",
+      "ModuleId": 1,
+      "Guid": "73d36c59-cbf9-ef11-a9ca-d017c2d04b3d"
+    }
+  ],
+  "TCDataAccess.Kernel.Domain.Entities.MsOfficeInteractionSettingEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": [
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.MsOfficeInteractionSettingEntity, TCDataAccess",
+      "Id": 17785,
+      "GenerateRedline": false,
+      "TransmitToSharepoint": false,
+      "DisallowProtectedDocx": false,
+      "DisallowEmbeddingsInDocx": false,
+      "EnableMergeMode": false,
+      "Guid": "f4aca34c-1bf4-ef11-a9c7-d017c2d04b3d"
+    }
+  ],
+  "TCDataAccess.Kernel.Domain.Entities.Smart.SmartExpressionEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": [
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Smart.SmartExpressionEntity, TCDataAccess",
+      "Id": 113140,
+      "Content": "<?xml version=\"1.0\" encoding=\"utf-16\"?><smartfilter><complexproperty isrootcontext=\"false\"><property name=\"UserID\" /></complexproperty> = 777</smartfilter>",
+      "Name": "тест999",
+      "SubcatId": 62270,
+      "IsFilter": true,
+      "IsDeleted": false,
+      "Guid": "d392ebaa-d4f4-ef11-a9c7-d017c2d04b3d",
+      "NoContextMode": false,
+      "OriginId": 2,
+      "AvailAsSmartSearch": false,
+      "Public": true,
+      "Version": 1
+    }
+  ],
+  "TCDataAccess.Kernel.Domain.Entities.Subcategories.StatesRoutesInSubcatEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": [
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Subcategories.StatesRoutesInSubcatEntity, TCDataAccess",
+      "Id": 174550,
+      "StateID": 3,
+      "StateNextID": 2,
+      "ActionID": 7,
+      "OwnerOnly": false,
+      "UserOnly": false,
+      "SubcatID": 62270,
+      "StepDescr": "Обжаловать",
+      "HiddenStep": false,
+      "TransparentApproval": false,
+      "ForceComment": false,
+      "ResetDueTime": false,
+      "IsButtonPresserAutoPerformer": false,
+      "AutoAssignCustomer": false,
+      "CycleApproval": false,
+      "DisableMail": false,
+      "AutoPerformStepOnSubtasksClose": false,
+      "StepConfirmationMode": "None",
+      "RequestDirectorSignatureOnReject": false,
+      "ForAdmin": false,
+      "ForViewver": false,
+      "TaskStartTimeAction": 0,
+      "AskPermissionToPerformTSTAction": false,
+      "IsAutoPerfomedOnPostTask": false,
+      "Guid": "f6aca34c-1bf4-ef11-a9c7-d017c2d04b3d",
+      "ChangeTaskText": false,
+      "ForPerfRight": false,
+      "ForAddRight": false,
+      "ForResponsiblePerformer": false,
+      "NotifyUsersInSubcat": false,
+      "ActionsWithExtParams": 0,
+      "DisallowRevisionsOnSign": false,
+      "DoSetComplainted": false,
+      "IsMainRouteStep": false,
+      "IsMainRouteAvailable": false,
+      "RequireChangeDateBefore": false,
+      "TaskEntityPermissionControl": false
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Subcategories.StatesRoutesInSubcatEntity, TCDataAccess",
+      "Id": 174560,
+      "StateID": 4,
+      "StateNextID": 1,
+      "ActionID": 7,
+      "OwnerOnly": false,
+      "UserOnly": false,
+      "SubcatID": 62270,
+      "StepDescr": "Обжаловать",
+      "HiddenStep": false,
+      "TransparentApproval": false,
+      "ForceComment": false,
+      "ResetDueTime": false,
+      "IsButtonPresserAutoPerformer": false,
+      "AutoAssignCustomer": false,
+      "CycleApproval": false,
+      "DisableMail": false,
+      "AutoPerformStepOnSubtasksClose": false,
+      "StepConfirmationMode": "None",
+      "RequestDirectorSignatureOnReject": false,
+      "ForAdmin": false,
+      "ForViewver": false,
+      "TaskStartTimeAction": 0,
+      "AskPermissionToPerformTSTAction": false,
+      "IsAutoPerfomedOnPostTask": false,
+      "Guid": "f7aca34c-1bf4-ef11-a9c7-d017c2d04b3d",
+      "ChangeTaskText": false,
+      "ForPerfRight": false,
+      "ForAddRight": false,
+      "ForResponsiblePerformer": false,
+      "NotifyUsersInSubcat": false,
+      "ActionsWithExtParams": 0,
+      "DisallowRevisionsOnSign": false,
+      "DoSetComplainted": false,
+      "IsMainRouteStep": false,
+      "IsMainRouteAvailable": false,
+      "RequireChangeDateBefore": false,
+      "TaskEntityPermissionControl": false
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Subcategories.StatesRoutesInSubcatEntity, TCDataAccess",
+      "Id": 174570,
+      "StateID": 1,
+      "StateNextID": 2,
+      "ActionID": 1,
+      "OwnerOnly": false,
+      "UserOnly": false,
+      "SubcatID": 62270,
+      "StepDescr": "Заняться",
+      "HiddenStep": false,
+      "TransparentApproval": false,
+      "ForceComment": false,
+      "ResetDueTime": false,
+      "IsButtonPresserAutoPerformer": false,
+      "AutoAssignCustomer": false,
+      "CycleApproval": false,
+      "DisableMail": false,
+      "AutoPerformStepOnSubtasksClose": false,
+      "StepConfirmationMode": "None",
+      "RequestDirectorSignatureOnReject": false,
+      "ForAdmin": false,
+      "ForViewver": false,
+      "TaskStartTimeAction": 2,
+      "AskPermissionToPerformTSTAction": false,
+      "IsAutoPerfomedOnPostTask": false,
+      "Guid": "f8aca34c-1bf4-ef11-a9c7-d017c2d04b3d",
+      "ChangeTaskText": false,
+      "ForPerfRight": false,
+      "ForAddRight": false,
+      "ForResponsiblePerformer": false,
+      "NotifyUsersInSubcat": false,
+      "ActionsWithExtParams": 0,
+      "DisallowRevisionsOnSign": false,
+      "DoSetComplainted": false,
+      "IsMainRouteStep": false,
+      "IsMainRouteAvailable": false,
+      "RequireChangeDateBefore": false,
+      "TaskEntityPermissionControl": false
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Subcategories.StatesRoutesInSubcatEntity, TCDataAccess",
+      "Id": 174580,
+      "StateID": 2,
+      "StateNextID": 3,
+      "ActionID": 1,
+      "OwnerOnly": false,
+      "UserOnly": false,
+      "SubcatID": 62270,
+      "StepDescr": "Завершить",
+      "HiddenStep": false,
+      "TransparentApproval": false,
+      "ForceComment": false,
+      "ResetDueTime": false,
+      "IsButtonPresserAutoPerformer": false,
+      "AutoAssignCustomer": false,
+      "CycleApproval": false,
+      "DisableMail": false,
+      "AutoPerformStepOnSubtasksClose": false,
+      "StepConfirmationMode": "None",
+      "RequestDirectorSignatureOnReject": false,
+      "ForAdmin": false,
+      "ForViewver": false,
+      "TaskStartTimeAction": 0,
+      "AskPermissionToPerformTSTAction": false,
+      "IsAutoPerfomedOnPostTask": false,
+      "Guid": "f9aca34c-1bf4-ef11-a9c7-d017c2d04b3d",
+      "ChangeTaskText": false,
+      "ForPerfRight": false,
+      "ForAddRight": false,
+      "ForResponsiblePerformer": false,
+      "NotifyUsersInSubcat": false,
+      "ActionsWithExtParams": 0,
+      "DisallowRevisionsOnSign": false,
+      "DoSetComplainted": false,
+      "IsMainRouteStep": false,
+      "IsMainRouteAvailable": false,
+      "RequireChangeDateBefore": false,
+      "TaskEntityPermissionControl": false
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Subcategories.StatesRoutesInSubcatEntity, TCDataAccess",
+      "Id": 174590,
+      "StateID": 1,
+      "StateNextID": 4,
+      "ActionID": 1,
+      "OwnerOnly": false,
+      "UserOnly": false,
+      "SubcatID": 62270,
+      "StepDescr": "Отклонить",
+      "HiddenStep": false,
+      "TransparentApproval": false,
+      "ForceComment": false,
+      "ResetDueTime": false,
+      "IsButtonPresserAutoPerformer": false,
+      "AutoAssignCustomer": false,
+      "CycleApproval": false,
+      "DisableMail": false,
+      "AutoPerformStepOnSubtasksClose": false,
+      "StepConfirmationMode": "None",
+      "RequestDirectorSignatureOnReject": false,
+      "ForAdmin": false,
+      "ForViewver": false,
+      "TaskStartTimeAction": 0,
+      "AskPermissionToPerformTSTAction": false,
+      "IsAutoPerfomedOnPostTask": false,
+      "Guid": "faaca34c-1bf4-ef11-a9c7-d017c2d04b3d",
+      "ChangeTaskText": false,
+      "ForPerfRight": false,
+      "ForAddRight": false,
+      "ForResponsiblePerformer": false,
+      "NotifyUsersInSubcat": false,
+      "ActionsWithExtParams": 0,
+      "DisallowRevisionsOnSign": false,
+      "DoSetComplainted": false,
+      "IsMainRouteStep": false,
+      "IsMainRouteAvailable": false,
+      "RequireChangeDateBefore": false,
+      "TaskEntityPermissionControl": false
+    }
+  ],
+  "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": [
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectEntity, TCDataAccess",
+      "Id": 428080,
+      "Guid": "fbaca34c-1bf4-ef11-a9c7-d017c2d04b3d"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectEntity, TCDataAccess",
+      "Id": 1867,
+      "Guid": "85840772-4b5d-4b87-a26b-e26debc40efb"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectEntity, TCDataAccess",
+      "Id": 200580,
+      "Guid": "11e9fe23-17bf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectEntity, TCDataAccess",
+      "Id": 200780,
+      "Guid": "27be3451-1abf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectEntity, TCDataAccess",
+      "Id": 424940,
+      "Guid": "31773950-4eda-ef11-a43d-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectEntity, TCDataAccess",
+      "Id": 197660,
+      "Guid": "90eeed04-cfb9-ed11-a442-0050568218d4"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectEntity, TCDataAccess",
+      "Id": 200590,
+      "Guid": "12e9fe23-17bf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectEntity, TCDataAccess",
+      "Id": 200770,
+      "Guid": "12be3451-1abf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectEntity, TCDataAccess",
+      "Id": 424930,
+      "Guid": "25773950-4eda-ef11-a43d-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectEntity, TCDataAccess",
+      "Id": 197670,
+      "Guid": "93eeed04-cfb9-ed11-a442-0050568218d4"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectEntity, TCDataAccess",
+      "Id": 200610,
+      "Guid": "14e9fe23-17bf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectEntity, TCDataAccess",
+      "Id": 200760,
+      "Guid": "11be3451-1abf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectEntity, TCDataAccess",
+      "Id": 424960,
+      "Guid": "49773950-4eda-ef11-a43d-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectEntity, TCDataAccess",
+      "Id": 197680,
+      "Guid": "96eeed04-cfb9-ed11-a442-0050568218d4"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectEntity, TCDataAccess",
+      "Id": 200600,
+      "Guid": "13e9fe23-17bf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectEntity, TCDataAccess",
+      "Id": 200750,
+      "Guid": "06be3451-1abf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectEntity, TCDataAccess",
+      "Id": 424970,
+      "Guid": "55773950-4eda-ef11-a43d-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectEntity, TCDataAccess",
+      "Id": 197690,
+      "Guid": "99eeed04-cfb9-ed11-a442-0050568218d4"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectEntity, TCDataAccess",
+      "Id": 200620,
+      "Guid": "33e9fe23-17bf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectEntity, TCDataAccess",
+      "Id": 200790,
+      "Guid": "32be3451-1abf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectEntity, TCDataAccess",
+      "Id": 424950,
+      "Guid": "3d773950-4eda-ef11-a43d-0050568288e0"
+    }
+  ],
+  "TCDataAccess.Kernel.Domain.Entities.ActionLogEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": [
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.ActionLogEntity, TCDataAccess",
+      "Id": 22660673,
+      "Guid": "0315274e-1bf4-ef11-a44a-005056824592",
+      "SessionUserID": 3026,
+      "ActionTimeStamp": "2025-02-26T11:25:59",
+      "Comment": "created subcategory <b>Пустая категория</b> in category <b>Шугаев</b>",
+      "SubcatID": 62270,
+      "CategoryID": 1221
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.ActionLogEntity, TCDataAccess",
+      "Id": 22660697,
+      "Guid": "02730bab-d4f4-ef11-a44a-005056824592",
+      "SessionUserID": 3026,
+      "ActionTimeStamp": "2025-02-27T09:32:52",
+      "Comment": "добавил SmartFilter тест999 id=113140",
+      "SubcatID": 62270
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.ActionLogEntity, TCDataAccess",
+      "Id": 22660698,
+      "Guid": "09e663b2-d4f4-ef11-a44a-005056824592",
+      "SessionUserID": 3026,
+      "ActionTimeStamp": "2025-02-27T09:33:04",
+      "Comment": "изменил SmartFilter тест999 id=113140",
+      "SubcatID": 62270
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.ActionLogEntity, TCDataAccess",
+      "Id": 22660699,
+      "Guid": "750dfbe4-d4f4-ef11-a44a-005056824592",
+      "SessionUserID": 3026,
+      "ActionTimeStamp": "2025-02-27T09:34:29",
+      "Comment": "Создал пакет Пакет999",
+      "SubcatID": 62270
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.ActionLogEntity, TCDataAccess",
+      "Id": 22660700,
+      "Guid": "5190df02-d5f4-ef11-a44a-005056824592",
+      "SessionUserID": 3026,
+      "ActionTimeStamp": "2025-02-27T09:35:19",
+      "Comment": "добавил к пакету '' действие 'Отменить'",
+      "SubcatID": 62270
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.ActionLogEntity, TCDataAccess",
+      "Id": 22660702,
+      "Guid": "bfbaa5c0-d9f4-ef11-a44a-005056824592",
+      "SessionUserID": 3026,
+      "ActionTimeStamp": "2025-02-27T10:09:15",
+      "Comment": "добавил привязку пакета '[Гусев] Создать задачу Новый год' к событию После постановки задачи, Smart фильтр: 'тест999'",
+      "SubcatID": 62270
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.ActionLogEntity, TCDataAccess",
+      "Id": 22660741,
+      "Guid": "b5e0d6a1-24f8-ef11-a44a-005056824592",
+      "SessionUserID": 3026,
+      "ActionTimeStamp": "2025-03-03T14:42:50",
+      "Comment": "Изменения в настройках матрицы доступа: 33030\r\nAdded - TaskEntityPermissionsSetId:33030, StateId:, ActionID:, GroupID:, All:True, Owner:False, Subscriber:False, Performer:False, ResponsiblePerformer:False, Acceptor:False, AccessType:Read\r\n",
+      "SubcatID": 62270
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.ActionLogEntity, TCDataAccess",
+      "Id": 22660742,
+      "Guid": "180dd0b6-24f8-ef11-a44a-005056824592",
+      "SessionUserID": 3026,
+      "ActionTimeStamp": "2025-03-03T14:43:25",
+      "Comment": "Изменения в настройках матрицы доступа: 33031\r\nAdded - TaskEntityPermissionsSetId:33031, StateId:, ActionID:, GroupID:, All:True, Owner:False, Subscriber:False, Performer:False, ResponsiblePerformer:False, Acceptor:False, AccessType:Read\r\n",
+      "SubcatID": 62270
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.ActionLogEntity, TCDataAccess",
+      "Id": 22660743,
+      "Guid": "6f78ffbc-24f8-ef11-a44a-005056824592",
+      "SessionUserID": 3026,
+      "ActionTimeStamp": "2025-03-03T14:43:35",
+      "Comment": "Изменения в настройках матрицы доступа: 33032\r\nAdded - TaskEntityPermissionsSetId:33032, StateId:, ActionID:, GroupID:, All:True, Owner:False, Subscriber:False, Performer:False, ResponsiblePerformer:False, Acceptor:False, AccessType:Read\r\n",
+      "SubcatID": 62270
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.ActionLogEntity, TCDataAccess",
+      "Id": 22660744,
+      "Guid": "7078ffbc-24f8-ef11-a44a-005056824592",
+      "SessionUserID": 3026,
+      "ActionTimeStamp": "2025-03-03T14:43:42",
+      "Comment": "Изменения в настройках матрицы доступа: 33033\r\nAdded - TaskEntityPermissionsSetId:33033, StateId:, ActionID:, GroupID:, All:True, Owner:False, Subscriber:False, Performer:False, ResponsiblePerformer:False, Acceptor:False, AccessType:Read\r\n",
+      "SubcatID": 62270
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.ActionLogEntity, TCDataAccess",
+      "Id": 22660745,
+      "Guid": "e6151ded-24f8-ef11-a44a-005056824592",
+      "SessionUserID": 3026,
+      "ActionTimeStamp": "2025-03-03T14:44:56",
+      "Comment": "добавил привязку пакета '[Гусев] Создать задачу Новый год' к событию Перед сменой заказчика, Smart фильтр: 'Нет'",
+      "SubcatID": 62270
+    }
+  ],
+  "TCDataAccess.Kernel.Domain.Entities.Smart.SmartExpressionVersionEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": [
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Smart.SmartExpressionVersionEntity, TCDataAccess",
+      "Id": 1719,
+      "UserId": 3026,
+      "ExpressionId": 113140,
+      "Version": 0,
+      "Content": "<?xml version=\"1.0\" encoding=\"utf-16\"?><smartfilter />",
+      "CreateDate": "2025-02-27T09:32:52",
+      "Guid": "d492ebaa-d4f4-ef11-a9c7-d017c2d04b3d"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Smart.SmartExpressionVersionEntity, TCDataAccess",
+      "Id": 1720,
+      "UserId": 3026,
+      "ExpressionId": 113140,
+      "Version": 1,
+      "Content": "<?xml version=\"1.0\" encoding=\"utf-16\"?><smartfilter><complexproperty isrootcontext=\"false\"><property name=\"UserID\" /></complexproperty> = 777</smartfilter>",
+      "CreateDate": "2025-02-27T09:33:04",
+      "Guid": "fb3c5ab2-d4f4-ef11-a9c7-d017c2d04b3d"
+    }
+  ],
+  "TCDataAccess.Kernel.Domain.Entities.Subcategories.StateEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": [
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Subcategories.StateEntity, TCDataAccess",
+      "Id": 1,
+      "Name": "Новая",
+      "ForMail": "",
+      "CommentOnAttainment": "Исполнение задачи отменено",
+      "DoSetEndDate": false,
+      "DoSetPerformer": false,
+      "GlobalStateSPName": "",
+      "CloseTask": false,
+      "FinishWork": false,
+      "ParentComment": "",
+      "NeedCloseSubtasks": false,
+      "ForMailCustomer": "Исполнение задачи прекращено",
+      "MayRequireOwnerSignature": false,
+      "CustomerID": 1,
+      "WorkNotStarted": true,
+      "Guid": "c74274d4-58ae-46ea-99a2-c6b61b05b025",
+      "CommentOnDueChangeNotNeeded": false,
+      "DisableEditOrRemoveFiles": false,
+      "Note": "",
+      "IsDeleted": false,
+      "LocalizedNameId": 424940,
+      "LocalizedForMailId": 424930,
+      "LocalizedForMailCustomerId": 424960,
+      "LocalizedCommentOnAttainmentId": 424970,
+      "LocalizedParentCommentId": 424950
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Subcategories.StateEntity, TCDataAccess",
+      "Id": 2,
+      "Name": "Выполняется",
+      "ForMail": "Заявка выполняется",
+      "CommentOnAttainment": "",
+      "DoSetEndDate": false,
+      "DoSetPerformer": true,
+      "GlobalStateSPName": "",
+      "CloseTask": false,
+      "FinishWork": false,
+      "ParentComment": "",
+      "NeedCloseSubtasks": false,
+      "ForMailCustomer": "Заявка выполняется",
+      "MayRequireOwnerSignature": false,
+      "CustomerID": 1,
+      "WorkNotStarted": false,
+      "Guid": "1f133f4e-99a5-403b-a631-58cbd111be8e",
+      "CommentOnDueChangeNotNeeded": false,
+      "DisableEditOrRemoveFiles": false,
+      "Note": "",
+      "IsDeleted": false,
+      "LocalizedNameId": 200780,
+      "LocalizedForMailId": 200770,
+      "LocalizedForMailCustomerId": 200760,
+      "LocalizedCommentOnAttainmentId": 200750,
+      "LocalizedParentCommentId": 200790
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Subcategories.StateEntity, TCDataAccess",
+      "Id": 3,
+      "Name": "Завершена",
+      "ForMail": "Задача завершена",
+      "CommentOnAttainment": "Задача завершена",
+      "DoSetEndDate": true,
+      "DoSetPerformer": false,
+      "GlobalStateSPName": "",
+      "CloseTask": true,
+      "FinishWork": true,
+      "ParentComment": "В категории $Cat завершена $TaskLink",
+      "NeedCloseSubtasks": false,
+      "ForMailCustomer": "Задача завершена",
+      "MayRequireOwnerSignature": true,
+      "CustomerID": 1,
+      "WorkNotStarted": false,
+      "Guid": "d21c01f1-f601-4d3b-8dac-28ce12ceb948",
+      "CommentOnDueChangeNotNeeded": false,
+      "DisableEditOrRemoveFiles": false,
+      "Note": "",
+      "IsDeleted": false,
+      "LocalizedNameId": 200580,
+      "LocalizedForMailId": 200590,
+      "LocalizedForMailCustomerId": 200610,
+      "LocalizedCommentOnAttainmentId": 200600,
+      "LocalizedParentCommentId": 200620
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Subcategories.StateEntity, TCDataAccess",
+      "Id": 4,
+      "Name": "Отклонена",
+      "ForMail": "Задача отклонена",
+      "CommentOnAttainment": "Задача отклонена",
+      "DoSetEndDate": true,
+      "DoSetPerformer": false,
+      "GlobalStateSPName": "",
+      "CloseTask": true,
+      "FinishWork": false,
+      "ParentComment": "В категории $Cat отклонена $TaskLink",
+      "NeedCloseSubtasks": false,
+      "ForMailCustomer": "Вашу задачу отклонили",
+      "MayRequireOwnerSignature": true,
+      "CustomerID": 1,
+      "WorkNotStarted": false,
+      "Guid": "4963ce9b-ffe8-47ec-9964-bab389a58983",
+      "CommentOnDueChangeNotNeeded": false,
+      "DisableEditOrRemoveFiles": true,
+      "Note": "",
+      "IsDeleted": false,
+      "LocalizedNameId": 1867,
+      "LocalizedForMailId": 197660,
+      "LocalizedForMailCustomerId": 197670,
+      "LocalizedCommentOnAttainmentId": 197680,
+      "LocalizedParentCommentId": 197690
+    }
+  ],
+  "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": [
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 1867,
+      "LanguageId": 1,
+      "Value": "Отклонена",
+      "Guid": "88f00039-b29b-4067-81f1-a26ac1046cc0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 1867,
+      "LanguageId": 2,
+      "Value": "Rejected",
+      "Guid": "fe7da4f3-84d1-4d04-aaff-b13aa7f7e785"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 1867,
+      "LanguageId": 3,
+      "Value": "拒绝",
+      "Guid": "41c4b374-bbfb-4e88-9eb6-acf152d6bb6e"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 197660,
+      "LanguageId": 1,
+      "Value": "Задача отклонена",
+      "Guid": "91eeed04-cfb9-ed11-a442-0050568218d4"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 197660,
+      "LanguageId": 2,
+      "Value": "Task has been rejected",
+      "Guid": "92eeed04-cfb9-ed11-a442-0050568218d4"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 197670,
+      "LanguageId": 1,
+      "Value": "Вашу задачу отклонили",
+      "Guid": "94eeed04-cfb9-ed11-a442-0050568218d4"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 197670,
+      "LanguageId": 2,
+      "Value": "Your task was rejected",
+      "Guid": "95eeed04-cfb9-ed11-a442-0050568218d4"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 197680,
+      "LanguageId": 1,
+      "Value": "Задача отклонена",
+      "Guid": "97eeed04-cfb9-ed11-a442-0050568218d4"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 197680,
+      "LanguageId": 2,
+      "Value": "Task has been rejected",
+      "Guid": "98eeed04-cfb9-ed11-a442-0050568218d4"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 197690,
+      "LanguageId": 1,
+      "Value": "В категории $Cat отклонена $TaskLink",
+      "Guid": "9aeeed04-cfb9-ed11-a442-0050568218d4"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 197690,
+      "LanguageId": 2,
+      "Value": "В категории $Cat отклонена $TaskLink",
+      "Guid": "9beeed04-cfb9-ed11-a442-0050568218d4"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200580,
+      "LanguageId": 1,
+      "Value": "Завершена",
+      "Guid": "15e9fe23-17bf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200580,
+      "LanguageId": 2,
+      "Value": "Completed",
+      "Guid": "16e9fe23-17bf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200580,
+      "LanguageId": 3,
+      "Value": "完成",
+      "Guid": "17e9fe23-17bf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200580,
+      "LanguageId": 4,
+      "Value": "",
+      "Guid": "18e9fe23-17bf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200580,
+      "LanguageId": 5,
+      "Value": "",
+      "Guid": "19e9fe23-17bf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200580,
+      "LanguageId": 6,
+      "Value": "",
+      "Guid": "1ae9fe23-17bf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200580,
+      "LanguageId": 7,
+      "Value": "",
+      "Guid": "1be9fe23-17bf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200580,
+      "LanguageId": 8,
+      "Value": "",
+      "Guid": "1ce9fe23-17bf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200580,
+      "LanguageId": 9,
+      "Value": "",
+      "Guid": "1de9fe23-17bf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200580,
+      "LanguageId": 10,
+      "Value": "完了",
+      "Guid": "1ee9fe23-17bf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200590,
+      "LanguageId": 1,
+      "Value": "Задача завершена",
+      "Guid": "1fe9fe23-17bf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200590,
+      "LanguageId": 2,
+      "Value": "The task that you are subscribed to has been completed",
+      "Guid": "20e9fe23-17bf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200590,
+      "LanguageId": 3,
+      "Value": "",
+      "Guid": "21e9fe23-17bf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200590,
+      "LanguageId": 4,
+      "Value": "",
+      "Guid": "22e9fe23-17bf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200590,
+      "LanguageId": 5,
+      "Value": "",
+      "Guid": "23e9fe23-17bf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200590,
+      "LanguageId": 6,
+      "Value": "",
+      "Guid": "24e9fe23-17bf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200590,
+      "LanguageId": 7,
+      "Value": "",
+      "Guid": "25e9fe23-17bf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200590,
+      "LanguageId": 8,
+      "Value": "",
+      "Guid": "26e9fe23-17bf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200590,
+      "LanguageId": 9,
+      "Value": "",
+      "Guid": "27e9fe23-17bf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200590,
+      "LanguageId": 10,
+      "Value": "",
+      "Guid": "28e9fe23-17bf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200600,
+      "LanguageId": 1,
+      "Value": "Задача завершена",
+      "Guid": "29e9fe23-17bf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200600,
+      "LanguageId": 2,
+      "Value": "Has completed the task",
+      "Guid": "2ae9fe23-17bf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200600,
+      "LanguageId": 3,
+      "Value": "",
+      "Guid": "2be9fe23-17bf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200600,
+      "LanguageId": 4,
+      "Value": "",
+      "Guid": "2ce9fe23-17bf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200600,
+      "LanguageId": 5,
+      "Value": "",
+      "Guid": "2de9fe23-17bf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200600,
+      "LanguageId": 6,
+      "Value": "",
+      "Guid": "2ee9fe23-17bf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200600,
+      "LanguageId": 7,
+      "Value": "",
+      "Guid": "2fe9fe23-17bf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200600,
+      "LanguageId": 8,
+      "Value": "",
+      "Guid": "30e9fe23-17bf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200600,
+      "LanguageId": 9,
+      "Value": "",
+      "Guid": "31e9fe23-17bf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200600,
+      "LanguageId": 10,
+      "Value": "",
+      "Guid": "32e9fe23-17bf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200610,
+      "LanguageId": 1,
+      "Value": "Задача завершена",
+      "Guid": "34e9fe23-17bf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200610,
+      "LanguageId": 2,
+      "Value": "The task has been completed",
+      "Guid": "35e9fe23-17bf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200610,
+      "LanguageId": 3,
+      "Value": "",
+      "Guid": "36e9fe23-17bf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200610,
+      "LanguageId": 4,
+      "Value": "",
+      "Guid": "37e9fe23-17bf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200610,
+      "LanguageId": 5,
+      "Value": "",
+      "Guid": "38e9fe23-17bf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200610,
+      "LanguageId": 6,
+      "Value": "",
+      "Guid": "39e9fe23-17bf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200610,
+      "LanguageId": 7,
+      "Value": "",
+      "Guid": "3ae9fe23-17bf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200610,
+      "LanguageId": 8,
+      "Value": "",
+      "Guid": "3be9fe23-17bf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200610,
+      "LanguageId": 9,
+      "Value": "",
+      "Guid": "3ce9fe23-17bf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200610,
+      "LanguageId": 10,
+      "Value": "",
+      "Guid": "3de9fe23-17bf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200620,
+      "LanguageId": 1,
+      "Value": "В категории $Cat завершена $TaskLink",
+      "Guid": "3ee9fe23-17bf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200620,
+      "LanguageId": 2,
+      "Value": "$TaskLink task in $Cat subcategory has been completed",
+      "Guid": "3fe9fe23-17bf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200620,
+      "LanguageId": 3,
+      "Value": "",
+      "Guid": "40e9fe23-17bf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200620,
+      "LanguageId": 4,
+      "Value": "",
+      "Guid": "41e9fe23-17bf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200620,
+      "LanguageId": 5,
+      "Value": "",
+      "Guid": "42e9fe23-17bf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200620,
+      "LanguageId": 6,
+      "Value": "",
+      "Guid": "43e9fe23-17bf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200620,
+      "LanguageId": 7,
+      "Value": "",
+      "Guid": "44e9fe23-17bf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200620,
+      "LanguageId": 8,
+      "Value": "",
+      "Guid": "45e9fe23-17bf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200620,
+      "LanguageId": 9,
+      "Value": "",
+      "Guid": "46e9fe23-17bf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200620,
+      "LanguageId": 10,
+      "Value": "",
+      "Guid": "47e9fe23-17bf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200750,
+      "LanguageId": 1,
+      "Value": "",
+      "Guid": "07be3451-1abf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200750,
+      "LanguageId": 2,
+      "Value": "",
+      "Guid": "08be3451-1abf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200750,
+      "LanguageId": 3,
+      "Value": "",
+      "Guid": "09be3451-1abf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200750,
+      "LanguageId": 4,
+      "Value": "",
+      "Guid": "0abe3451-1abf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200750,
+      "LanguageId": 5,
+      "Value": "",
+      "Guid": "0bbe3451-1abf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200750,
+      "LanguageId": 6,
+      "Value": "",
+      "Guid": "0cbe3451-1abf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200750,
+      "LanguageId": 7,
+      "Value": "",
+      "Guid": "0dbe3451-1abf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200750,
+      "LanguageId": 8,
+      "Value": "",
+      "Guid": "0ebe3451-1abf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200750,
+      "LanguageId": 9,
+      "Value": "",
+      "Guid": "0fbe3451-1abf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200750,
+      "LanguageId": 10,
+      "Value": "",
+      "Guid": "10be3451-1abf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200760,
+      "LanguageId": 1,
+      "Value": "Заявка выполняется",
+      "Guid": "13be3451-1abf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200760,
+      "LanguageId": 2,
+      "Value": "",
+      "Guid": "14be3451-1abf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200760,
+      "LanguageId": 3,
+      "Value": "",
+      "Guid": "15be3451-1abf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200760,
+      "LanguageId": 4,
+      "Value": "",
+      "Guid": "16be3451-1abf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200760,
+      "LanguageId": 5,
+      "Value": "",
+      "Guid": "17be3451-1abf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200760,
+      "LanguageId": 6,
+      "Value": "",
+      "Guid": "18be3451-1abf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200760,
+      "LanguageId": 7,
+      "Value": "",
+      "Guid": "19be3451-1abf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200760,
+      "LanguageId": 8,
+      "Value": "",
+      "Guid": "1abe3451-1abf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200760,
+      "LanguageId": 9,
+      "Value": "",
+      "Guid": "1bbe3451-1abf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200760,
+      "LanguageId": 10,
+      "Value": "",
+      "Guid": "1cbe3451-1abf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200770,
+      "LanguageId": 1,
+      "Value": "Заявка выполняется",
+      "Guid": "1dbe3451-1abf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200770,
+      "LanguageId": 2,
+      "Value": "",
+      "Guid": "1ebe3451-1abf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200770,
+      "LanguageId": 3,
+      "Value": "",
+      "Guid": "1fbe3451-1abf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200770,
+      "LanguageId": 4,
+      "Value": "",
+      "Guid": "20be3451-1abf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200770,
+      "LanguageId": 5,
+      "Value": "",
+      "Guid": "21be3451-1abf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200770,
+      "LanguageId": 6,
+      "Value": "",
+      "Guid": "22be3451-1abf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200770,
+      "LanguageId": 7,
+      "Value": "",
+      "Guid": "23be3451-1abf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200770,
+      "LanguageId": 8,
+      "Value": "",
+      "Guid": "24be3451-1abf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200770,
+      "LanguageId": 9,
+      "Value": "",
+      "Guid": "25be3451-1abf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200770,
+      "LanguageId": 10,
+      "Value": "",
+      "Guid": "26be3451-1abf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200780,
+      "LanguageId": 1,
+      "Value": "Выполняется",
+      "Guid": "28be3451-1abf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200780,
+      "LanguageId": 2,
+      "Value": "",
+      "Guid": "29be3451-1abf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200780,
+      "LanguageId": 3,
+      "Value": "",
+      "Guid": "2abe3451-1abf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200780,
+      "LanguageId": 4,
+      "Value": "",
+      "Guid": "2bbe3451-1abf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200780,
+      "LanguageId": 5,
+      "Value": "",
+      "Guid": "2cbe3451-1abf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200780,
+      "LanguageId": 6,
+      "Value": "",
+      "Guid": "2dbe3451-1abf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200780,
+      "LanguageId": 7,
+      "Value": "",
+      "Guid": "2ebe3451-1abf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200780,
+      "LanguageId": 8,
+      "Value": "",
+      "Guid": "2fbe3451-1abf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200780,
+      "LanguageId": 9,
+      "Value": "",
+      "Guid": "30be3451-1abf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200780,
+      "LanguageId": 10,
+      "Value": "",
+      "Guid": "31be3451-1abf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200790,
+      "LanguageId": 1,
+      "Value": "",
+      "Guid": "33be3451-1abf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200790,
+      "LanguageId": 2,
+      "Value": "",
+      "Guid": "34be3451-1abf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200790,
+      "LanguageId": 3,
+      "Value": "",
+      "Guid": "35be3451-1abf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200790,
+      "LanguageId": 4,
+      "Value": "",
+      "Guid": "36be3451-1abf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200790,
+      "LanguageId": 5,
+      "Value": "",
+      "Guid": "37be3451-1abf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200790,
+      "LanguageId": 6,
+      "Value": "",
+      "Guid": "38be3451-1abf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200790,
+      "LanguageId": 7,
+      "Value": "",
+      "Guid": "39be3451-1abf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200790,
+      "LanguageId": 8,
+      "Value": "",
+      "Guid": "3abe3451-1abf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200790,
+      "LanguageId": 9,
+      "Value": "",
+      "Guid": "3bbe3451-1abf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 200790,
+      "LanguageId": 10,
+      "Value": "",
+      "Guid": "3cbe3451-1abf-ed11-a420-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 424930,
+      "LanguageId": 1,
+      "Value": "",
+      "Guid": "26773950-4eda-ef11-a43d-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 424930,
+      "LanguageId": 2,
+      "Value": "",
+      "Guid": "27773950-4eda-ef11-a43d-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 424930,
+      "LanguageId": 3,
+      "Value": "",
+      "Guid": "28773950-4eda-ef11-a43d-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 424930,
+      "LanguageId": 4,
+      "Value": "",
+      "Guid": "29773950-4eda-ef11-a43d-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 424930,
+      "LanguageId": 5,
+      "Value": "",
+      "Guid": "2a773950-4eda-ef11-a43d-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 424930,
+      "LanguageId": 6,
+      "Value": "",
+      "Guid": "2b773950-4eda-ef11-a43d-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 424930,
+      "LanguageId": 7,
+      "Value": "",
+      "Guid": "2c773950-4eda-ef11-a43d-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 424930,
+      "LanguageId": 8,
+      "Value": "",
+      "Guid": "2d773950-4eda-ef11-a43d-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 424930,
+      "LanguageId": 9,
+      "Value": "",
+      "Guid": "2e773950-4eda-ef11-a43d-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 424930,
+      "LanguageId": 10,
+      "Value": "",
+      "Guid": "2f773950-4eda-ef11-a43d-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 424930,
+      "LanguageId": 11,
+      "Value": "",
+      "Guid": "30773950-4eda-ef11-a43d-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 424940,
+      "LanguageId": 1,
+      "Value": "Новая",
+      "Guid": "32773950-4eda-ef11-a43d-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 424940,
+      "LanguageId": 2,
+      "Value": "New",
+      "Guid": "33773950-4eda-ef11-a43d-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 424940,
+      "LanguageId": 3,
+      "Value": "新增功能",
+      "Guid": "34773950-4eda-ef11-a43d-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 424940,
+      "LanguageId": 4,
+      "Value": "",
+      "Guid": "35773950-4eda-ef11-a43d-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 424940,
+      "LanguageId": 5,
+      "Value": "",
+      "Guid": "36773950-4eda-ef11-a43d-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 424940,
+      "LanguageId": 6,
+      "Value": "",
+      "Guid": "37773950-4eda-ef11-a43d-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 424940,
+      "LanguageId": 7,
+      "Value": "",
+      "Guid": "38773950-4eda-ef11-a43d-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 424940,
+      "LanguageId": 8,
+      "Value": "",
+      "Guid": "39773950-4eda-ef11-a43d-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 424940,
+      "LanguageId": 9,
+      "Value": "",
+      "Guid": "3a773950-4eda-ef11-a43d-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 424940,
+      "LanguageId": 10,
+      "Value": "新",
+      "Guid": "3b773950-4eda-ef11-a43d-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 424940,
+      "LanguageId": 11,
+      "Value": "",
+      "Guid": "3c773950-4eda-ef11-a43d-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 424950,
+      "LanguageId": 1,
+      "Value": "",
+      "Guid": "3e773950-4eda-ef11-a43d-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 424950,
+      "LanguageId": 2,
+      "Value": "",
+      "Guid": "3f773950-4eda-ef11-a43d-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 424950,
+      "LanguageId": 3,
+      "Value": "",
+      "Guid": "40773950-4eda-ef11-a43d-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 424950,
+      "LanguageId": 4,
+      "Value": "",
+      "Guid": "41773950-4eda-ef11-a43d-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 424950,
+      "LanguageId": 5,
+      "Value": "",
+      "Guid": "42773950-4eda-ef11-a43d-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 424950,
+      "LanguageId": 6,
+      "Value": "",
+      "Guid": "43773950-4eda-ef11-a43d-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 424950,
+      "LanguageId": 7,
+      "Value": "",
+      "Guid": "44773950-4eda-ef11-a43d-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 424950,
+      "LanguageId": 8,
+      "Value": "",
+      "Guid": "45773950-4eda-ef11-a43d-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 424950,
+      "LanguageId": 9,
+      "Value": "",
+      "Guid": "46773950-4eda-ef11-a43d-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 424950,
+      "LanguageId": 10,
+      "Value": "",
+      "Guid": "47773950-4eda-ef11-a43d-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 424950,
+      "LanguageId": 11,
+      "Value": "",
+      "Guid": "48773950-4eda-ef11-a43d-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 424960,
+      "LanguageId": 1,
+      "Value": "Исполнение задачи прекращено",
+      "Guid": "4a773950-4eda-ef11-a43d-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 424960,
+      "LanguageId": 2,
+      "Value": "Work on the task has been cancelled",
+      "Guid": "4b773950-4eda-ef11-a43d-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 424960,
+      "LanguageId": 3,
+      "Value": "",
+      "Guid": "4c773950-4eda-ef11-a43d-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 424960,
+      "LanguageId": 4,
+      "Value": "",
+      "Guid": "4d773950-4eda-ef11-a43d-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 424960,
+      "LanguageId": 5,
+      "Value": "",
+      "Guid": "4e773950-4eda-ef11-a43d-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 424960,
+      "LanguageId": 6,
+      "Value": "",
+      "Guid": "4f773950-4eda-ef11-a43d-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 424960,
+      "LanguageId": 7,
+      "Value": "",
+      "Guid": "50773950-4eda-ef11-a43d-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 424960,
+      "LanguageId": 8,
+      "Value": "",
+      "Guid": "51773950-4eda-ef11-a43d-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 424960,
+      "LanguageId": 9,
+      "Value": "",
+      "Guid": "52773950-4eda-ef11-a43d-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 424960,
+      "LanguageId": 10,
+      "Value": "",
+      "Guid": "53773950-4eda-ef11-a43d-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 424960,
+      "LanguageId": 11,
+      "Value": "",
+      "Guid": "54773950-4eda-ef11-a43d-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 424970,
+      "LanguageId": 1,
+      "Value": "Исполнение задачи отменено",
+      "Guid": "56773950-4eda-ef11-a43d-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 424970,
+      "LanguageId": 2,
+      "Value": "Has cancelled task execution",
+      "Guid": "57773950-4eda-ef11-a43d-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 424970,
+      "LanguageId": 3,
+      "Value": "",
+      "Guid": "58773950-4eda-ef11-a43d-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 424970,
+      "LanguageId": 4,
+      "Value": "",
+      "Guid": "59773950-4eda-ef11-a43d-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 424970,
+      "LanguageId": 5,
+      "Value": "",
+      "Guid": "5a773950-4eda-ef11-a43d-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 424970,
+      "LanguageId": 6,
+      "Value": "",
+      "Guid": "5b773950-4eda-ef11-a43d-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 424970,
+      "LanguageId": 7,
+      "Value": "",
+      "Guid": "5c773950-4eda-ef11-a43d-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 424970,
+      "LanguageId": 8,
+      "Value": "",
+      "Guid": "5d773950-4eda-ef11-a43d-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 424970,
+      "LanguageId": 9,
+      "Value": "",
+      "Guid": "5e773950-4eda-ef11-a43d-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 424970,
+      "LanguageId": 10,
+      "Value": "",
+      "Guid": "5f773950-4eda-ef11-a43d-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 424970,
+      "LanguageId": 11,
+      "Value": "",
+      "Guid": "60773950-4eda-ef11-a43d-0050568288e0"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 428080,
+      "LanguageId": 1,
+      "Value": "Пустая категория",
+      "Guid": "ffaca34c-1bf4-ef11-a9c7-d017c2d04b3d"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 428080,
+      "LanguageId": 2,
+      "Value": "",
+      "Guid": "00ada34c-1bf4-ef11-a9c7-d017c2d04b3d"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 428080,
+      "LanguageId": 3,
+      "Value": "",
+      "Guid": "feaca34c-1bf4-ef11-a9c7-d017c2d04b3d"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 428080,
+      "LanguageId": 4,
+      "Value": "",
+      "Guid": "fdaca34c-1bf4-ef11-a9c7-d017c2d04b3d"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 428080,
+      "LanguageId": 5,
+      "Value": "",
+      "Guid": "03ada34c-1bf4-ef11-a9c7-d017c2d04b3d"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 428080,
+      "LanguageId": 6,
+      "Value": "",
+      "Guid": "01ada34c-1bf4-ef11-a9c7-d017c2d04b3d"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 428080,
+      "LanguageId": 7,
+      "Value": "",
+      "Guid": "06ada34c-1bf4-ef11-a9c7-d017c2d04b3d"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 428080,
+      "LanguageId": 8,
+      "Value": "",
+      "Guid": "05ada34c-1bf4-ef11-a9c7-d017c2d04b3d"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 428080,
+      "LanguageId": 9,
+      "Value": "",
+      "Guid": "04ada34c-1bf4-ef11-a9c7-d017c2d04b3d"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 428080,
+      "LanguageId": 10,
+      "Value": "",
+      "Guid": "02ada34c-1bf4-ef11-a9c7-d017c2d04b3d"
+    },
+    {
+      "$type": "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess",
+      "LocalizationId": 428080,
+      "LanguageId": 11,
+      "Value": "",
+      "Guid": "fcaca34c-1bf4-ef11-a9c7-d017c2d04b3d"
+    }
+  ]
+}
