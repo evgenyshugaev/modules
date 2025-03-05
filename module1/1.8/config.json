@@ -1,0 +1,1475 @@
+{
+  "Value": {
+    "TCDataAccess.Kernel.Domain.Entities.CategoryEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "CategoryEntity.CustomerId_CustomerEntity.Id": "Ignore",
+      "CategoryEntity.Id_CustomTabsCatEntity.CatID": "Ignore",
+      "CategoryEntity.Id_ExtParamsInPortalEntity.CategoryID": "Ignore",
+      "CategoryEntity.Id_CategoryEntity.ParentCategoryId": "Include",
+      "CategoryEntity.ParentCategoryId_CategoryEntity.Id": "Ignore",
+      "CategoryEntity.Id_SubcategoryEntity.CategoryId": "Include",
+      "CategoryEntity.LocalizedDescriptionId_LocalizedBusinessObjectEntity.Id": "Include",
+      "CategoryEntity.Id_TaskFormCustomButtonEntity.UrlCategoryId": "Merge",
+      "CategoryEntity.Id_CategoryGroupPermissionEntity.CategoryId": "Ignore",
+      "CategoryEntity.ModuleId_ModuleEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Subcategories.SubcategoryEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "SubcategoryEntity.Id_ActionsPackEntity.SubcatId": "Merge",
+      "SubcategoryEntity.CategoryId_CategoryEntity.Id": "Ignore",
+      "SubcategoryEntity.Id_CommentFilterBySubcatEntity.SubcatId": "Ignore",
+      "SubcategoryEntity.Id_SubcategoryAccessEntity.SubcatId": "Ignore",
+      "SubcategoryEntity.Id_CustomerZoneRubricEntity.SubcatId": "Ignore",
+      "SubcategoryEntity.Id_CustomEventEntity.SubcatId": "Merge",
+      "SubcategoryEntity.Id_CustomTabsSubcatEntity.SubcatID": "Ignore",
+      "SubcategoryEntity.Id_CustomTaskUsedAsEpBlockEntity.SubcatId": "Merge",
+      "SubcategoryEntity.Id_CustomTaskUsedAsEpBlockSettingEntity.SubcatId": "Ignore",
+      "SubcategoryEntity.Id_DecompositionLinkToSubcatEntity.SubcatId": "Ignore",
+      "SubcategoryEntity.Id_DecompositionEntity.SubcatId": "Include",
+      "SubcategoryEntity.Id_EventsActionEntity.SubcatID": "Merge",
+      "SubcategoryEntity.ExtParamIDToWriteInSubjects_ExtParamEntity.Id": "Ignore",
+      "SubcategoryEntity.Id_ExtParamBlockEntity.SubcatId": "Merge",
+      "SubcategoryEntity.Id_ExtParamBlocksGroupEntity.SubcatId": "Merge",
+      "SubcategoryEntity.Id_ExtParamFromSubcatSubscriberEntity.SubcatID": "Ignore",
+      "SubcategoryEntity.Id_ExtParamNumeratorSubcatStepEntity.SubcatId": "Ignore",
+      "SubcategoryEntity.Id_ExtParamInSubcatEntity.SubcatId": "Merge",
+      "SubcategoryEntity.ProjectFactSumEpId_ExtParamEntity.Id": "Ignore",
+      "SubcategoryEntity.ProjectPlannedSumEpId_ExtParamEntity.Id": "Ignore",
+      "SubcategoryEntity.Id_ExtParamStateViewEntity.SubcatID": "Merge",
+      "SubcategoryEntity.Id_ExtParamTableSettingsInSubcatGroupPermissionEntity.SubcatId": "Ignore",
+      "SubcategoryEntity.Id_ExtParamTableSettingsInSubcatStatePermissionEntity.SubcatId": "Ignore",
+      "SubcategoryEntity.Id_ExtParamTableSettingsInSubcatEntity.SubcatId": "Ignore",
+      "SubcategoryEntity.Id_SettingEntity.ErrorSubcatID": "Ignore",
+      "SubcategoryEntity.Id_SettingEntity.FeedBackSubcatID": "Ignore",
+      "SubcategoryEntity.CommentReplacerId_ReplacerEntity.Id": "Include",
+      "SubcategoryEntity.DelegateTaskConfirmSignatureId_SignatureEntity.Id": "Ignore",
+      "SubcategoryEntity.DelegateTaskConfirmSignatureSmartExpressionId_SmartExpressionEntity.Id": "Ignore",
+      "SubcategoryEntity.PerformerDefaultResourceId_TaskEntity.Id": "Ignore",
+      "SubcategoryEntity.ProjectTasksSubcatId_SubcategoryEntity.Id": "Ignore",
+      "SubcategoryEntity.Id_SubcategoryEntity.ProjectTasksSubcatId": "Ignore",
+      "SubcategoryEntity.SpecialUsersSmartExpressionId_SmartExpressionEntity.Id": "Ignore",
+      "SubcategoryEntity.TaskOwnerChangeConfirmSignatureId_SignatureEntity.Id": "Ignore",
+      "SubcategoryEntity.TaskOwnerChangeSmartExpressionId_SmartExpressionEntity.Id": "Ignore",
+      "SubcategoryEntity.TaskTextReplacerId_ReplacerEntity.Id": "Include",
+      "SubcategoryEntity.Id_SubcatStateHintEntity.SubcatId": "Merge",
+      "SubcategoryEntity.ResponsibleGroupID_GroupEntity.Id": "Include",
+      "SubcategoryEntity.Id_GroupPermissionEntity.SubcatId": "Include",
+      "SubcategoryEntity.GroupToInformOnPlanTimeOverdueID_GroupEntity.Id": "Include",
+      "SubcategoryEntity.Id_LookupParamSettingEntity.SubcatId": "Ignore",
+      "SubcategoryEntity.Id_LookupParamSubcategoryEntity.SubcatID": "Ignore",
+      "SubcategoryEntity.Id_MailFromTaskTemplateEntity.SubcatID": "Include",
+      "SubcategoryEntity.Id_MailTemplateEntity.Subcategory": "Ignore",
+      "SubcategoryEntity.MobileTaskTemplateId_SubcategoryTaskTemplateEntity.Id": "Ignore",
+      "SubcategoryEntity.MobileTemplateID_MobileTemplateEntity.Id": "Ignore",
+      "SubcategoryEntity.MsOfficeInteractionSettingId_MsOfficeInteractionSettingEntity.Id": "Include",
+      "SubcategoryEntity.Id_OverdueReportIgnoringStateEntity.SubcatID": "Ignore",
+      "SubcategoryEntity.Id_ProjectPaymentSubcatEntity.PaymentSubcatId": "Ignore",
+      "SubcategoryEntity.Id_ProjectPaymentSubcatEntity.ProjectSubcatId": "Ignore",
+      "SubcategoryEntity.Id_ProjectTasksPlanningSubcatEntity.PlanningSubcatId": "Ignore",
+      "SubcategoryEntity.Id_ResourceBookingSubcatEntity.BookingSubcatID": "Ignore",
+      "SubcategoryEntity.Id_ResourceBookingSubcatEntity.ResourceSubcatID": "Ignore",
+      "SubcategoryEntity.Id_RoleUserDeniedSubcatEntity.SubcatID": "Ignore",
+      "SubcategoryEntity.Id_RoleUserSubcatEntity.SubcatID": "Ignore",
+      "SubcategoryEntity.Id_SchedulerCategoryEntity.SubcatId": "Ignore",
+      "SubcategoryEntity.Id_SettingEntity.ChatSubcatId": "Ignore",
+      "SubcategoryEntity.Id_SettingEntity.AnonymousSubcatID": "Ignore",
+      "SubcategoryEntity.Id_SettingEntity.CalendarSubcatId": "Ignore",
+      "SubcategoryEntity.Id_SettingEntity.MilestoneSubcatId": "Ignore",
+      "SubcategoryEntity.Id_SettingEntity.PrivateSubcatID": "Ignore",
+      "SubcategoryEntity.Id_UserGroupSettingEntity.OwnTaskSubcatID": "Ignore",
+      "SubcategoryEntity.Id_SettingEntity.ProjectTasksSubcatId": "Ignore",
+      "SubcategoryEntity.Id_SettingEntity.RatesTaskCategory": "Ignore",
+      "SubcategoryEntity.Id_SettingEntity.RMResourceCatalogSubcatId": "Ignore",
+      "SubcategoryEntity.ChangeDueConfirmSignatureId_SignatureEntity.Id": "Ignore",
+      "SubcategoryEntity.Id_SmartAccessSubcategoryEntity.SubcatId": "Ignore",
+      "SubcategoryEntity.ChangeDueConfirmSignatureSmartExpressionId_SmartExpressionEntity.Id": "Ignore",
+      "SubcategoryEntity.MainTaskFormTemplateIdSmartExpressionId_SmartExpressionEntity.Id": "Ignore",
+      "SubcategoryEntity.MainRouteStepsAvailableSmartExpressionId_SmartExpressionEntity.Id": "Ignore",
+      "SubcategoryEntity.MtfDefaultTemplateVisibilitySmartId_SmartExpressionEntity.Id": "Ignore",
+      "SubcategoryEntity.NewTaskFormTemplateIdSmartExpressionId_SmartExpressionEntity.Id": "Ignore",
+      "SubcategoryEntity.RMResourcesVisibilitySmartExpressionId_SmartExpressionEntity.Id": "Ignore",
+      "SubcategoryEntity.Id_SmartExpressionEntity.SubcatId": "Include",
+      "SubcategoryEntity.Id_SmartScriptEntity.SubcatId": "Merge",
+      "SubcategoryEntity.Id_SmartQueryEntity.SubcatId": "Include",
+      "SubcategoryEntity.Id_SmartRecurrenceEntity.SubcatId": "Merge",
+      "SubcategoryEntity.Id_StatesRoutesInSubcatEntity.SubcatID": "Merge",
+      "SubcategoryEntity.Id_StepSubTaskEntity.SubcatId": "Ignore",
+      "SubcategoryEntity.Id_SubcatDenormalizatorSettingEntity.SubcatID": "Ignore",
+      "SubcategoryEntity.Id_SubcategoriesHierarhy1CExtparamsInGridEntity.SubcatId": "Merge",
+      "SubcategoryEntity.Id_SubcategoriesHierarhy1CSettingEntity.Id": "Merge",
+      "SubcategoryEntity.Id_SubcategoriesIncludeEntity.SubcatId": "Merge",
+      "SubcategoryEntity.Id_GeneralIncludeCategoriesEntity.SubcatId": "Merge",
+      "SubcategoryEntity.Id_SubcategoryTaskTemplateEntity.SubcatId": "Ignore",
+      "SubcategoryEntity.Id_SubcategoryTemplateEntity.SubcatId": "Include",
+      "SubcategoryEntity.MainTaskFormTemplateID_SubcategoryTemplateEntity.Id": "Ignore",
+      "SubcategoryEntity.NewTaskFormTemplateID_SubcategoryTemplateEntity.Id": "Ignore",
+      "SubcategoryEntity.Id_SubcatIncludeEntity.SubcatID": "Include",
+      "SubcategoryEntity.Id_SubcatMeetingSettingEntity.SubcatID": "Include",
+      "SubcategoryEntity.Id_SubcatMeetingSettingEntity.TasksDefaultSubcatID": "Ignore",
+      "SubcategoryEntity.Id_SubcatNoteEntity.SubcatId": "Merge",
+      "SubcategoryEntity.Id_SubcatPlanningCoordinatingResponsibleEntity.SubcatId": "Merge",
+      "SubcategoryEntity.Id_SubcatPlanningEstimateResponsibleEntity.SubcatId": "Merge",
+      "SubcategoryEntity.Id_SubcatPrintFormEntity.SubcatID": "Ignore",
+      "SubcategoryEntity.Id_SummaryStateEntity.SubcatID": "Ignore",
+      "SubcategoryEntity.Id_Sync1CEventQueueEntity.SubcatID": "Ignore",
+      "SubcategoryEntity.Id_TagTypeSubcatEntity.SubcatID": "Ignore",
+      "SubcategoryEntity.Id_TaskFormCustomButtonEntity.SubcatId": "Merge",
+      "SubcategoryEntity.Id_TaskFormCustomButtonEntity.UrlSubcategoryId": "Ignore",
+      "SubcategoryEntity.Id_TaskFormCustomButtonEntity.UrlNewTaskSubcategoryId": "Ignore",
+      "SubcategoryEntity.Id_TaskHelpersTimeReportSettingEntity.SubcatID": "Ignore",
+      "SubcategoryEntity.Id_TaskEntity.SubcatId": "Ignore",
+      "SubcategoryEntity.Id_TasksLayoutSubcatEntity.Id": "Ignore",
+      "SubcategoryEntity.Id_TaskUniversalTemplateMatrixEntity.SubcatId": "Merge",
+      "SubcategoryEntity.Id_TaskUniversalTemplateEntity.SubcatId": "Ignore",
+      "SubcategoryEntity.Id_TemplateFileEntity.SubcatId": "Ignore",
+      "SubcategoryEntity.Id_TemplateStyleEntity.SubcatID": "Ignore",
+      "SubcategoryEntity.Id_UserAssistantCategoryEntity.SubcatId": "Ignore",
+      "SubcategoryEntity.Id_UserFavoriteSubcatEntity.SubcatID": "Ignore",
+      "SubcategoryEntity.Id_UserSubcatNotificatonEntity.SubcatId": "Ignore",
+      "SubcategoryEntity.Id_WareHouseCategoryTasksLinkEntity.SubcatID": "Ignore",
+      "SubcategoryEntity.Id_ExtParamsInSubCatFormulaEntity.SubcatId": "Ignore",
+      "SubcategoryEntity.Id_SmartAccessForExtParamInSubcatEntity.SubcatId": "Merge",
+      "SubcategoryEntity.Id_FileStorageFileToSubcategoryLinkEntity.SubcatId": "Ignore",
+      "SubcategoryEntity.Id_GroupSubcatNotificatonEntity.SubcatId": "Merge",
+      "SubcategoryEntity.LocalizedDescriptionId_LocalizedBusinessObjectEntity.Id": "Include",
+      "SubcategoryEntity.LocalizedEntityId_LocalizedBusinessObjectEntity.Id": "Include",
+      "SubcategoryEntity.LocalizedSendButtonId_LocalizedBusinessObjectEntity.Id": "Include",
+      "SubcategoryEntity.LocalizedSrokNameId_LocalizedBusinessObjectEntity.Id": "Include",
+      "SubcategoryEntity.LocalizedTaskStartTimeNameId_LocalizedBusinessObjectEntity.Id": "Include",
+      "SubcategoryEntity.DataSourceId_DataSourceEntity.Id": "Include",
+      "SubcategoryEntity.Id_EdsSubcategorySettingEntity.Id": "Ignore",
+      "SubcategoryEntity.Id_ViewTagsTypeEntity.SubcatID": "Ignore",
+      "SubcategoryEntity.Id_SubcatUserNotificationEntity.SubcatId": "Ignore",
+      "SubcategoryEntity.LocalizedTechnicalWorksTextId_LocalizedBusinessObjectEntity.Id": "Include",
+      "SubcategoryEntity.Id_DataSourceSettingEntity.EntityId": "Include",
+      "SubcategoryEntity.Id_ActionLogEntity.SubcatID": "Include",
+      "SubcategoryEntity.ModuleId_ModuleEntity.Id": "Ignore",
+      "SubcategoryEntity.InstructionTaskId_TaskEntity.Id": "Ignore",
+      "SubcategoryEntity.Id_SmartAccessViewTaskEntity.SubcatId": "Ignore",
+      "SubcategoryEntity.Id_SubcatToResourceSubcatEntity.SubcatId": "Ignore",
+      "SubcategoryEntity.Id_CommentEntity.SubcatId": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Smart.ActionsPackEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "ActionsPackEntity.CycleBreakSmartFilterId_SmartExpressionEntity.Id": "Include",
+      "ActionsPackEntity.CycleIteratorSmartExpressionId_SmartExpressionEntity.Id": "Include",
+      "ActionsPackEntity.Id_EmailMailBoxesFoldersSmartPackEntity.ActionsPackID": "Ignore",
+      "ActionsPackEntity.Id_EventsActionEntity.ActionsPackID": "Ignore",
+      "ActionsPackEntity.Id_PacksActionEntity.ActionsPackId": "Merge",
+      "ActionsPackEntity.Id_SmartRecurrenceEntity.ActionsPackId": "Ignore",
+      "ActionsPackEntity.SubcatId_SubcategoryEntity.Id": "Ignore",
+      "ActionsPackEntity.Id_TaskFormCustomButtonEntity.ActionsPackId": "Ignore",
+      "ActionsPackEntity.Id_TelephonyActionsPackEntity.ActionsPackID": "Ignore",
+      "ActionsPackEntity.Id_ActionButtonInListEntity.ActionsPackId": "Ignore",
+      "ActionsPackEntity.Id_PublicationObjectEntity.ActionsPackId": "Ignore",
+      "ActionsPackEntity.Id_CustomQueueActionsEntity.ActionPackID": "Ignore",
+      "ActionsPackEntity.ModuleId_ModuleEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Smart.SmartExpressionEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "SmartExpressionEntity.Id_ActionsPackEntity.CycleBreakSmartFilterId": "Ignore",
+      "SmartExpressionEntity.Id_ActionsPackEntity.CycleIteratorSmartExpressionId": "Ignore",
+      "SmartExpressionEntity.Id_CustomerZoneRubricEntity.SmartCommentCopyId": "Ignore",
+      "SmartExpressionEntity.Id_CustomerZoneRubricEntity.SmartCommentToId": "Ignore",
+      "SmartExpressionEntity.Id_CustomTaskUsedAsEpBlockSettingEntity.SmartId": "Ignore",
+      "SmartExpressionEntity.Id_CustomTaskUsedAsEpBlockSettingEntity.CreateButtonLinkUrlSmartId": "Ignore",
+      "SmartExpressionEntity.Id_EmailMailBoxesFoldersSmartPackEntity.SmartFilterID": "Ignore",
+      "SmartExpressionEntity.Id_EventsActionEntity.SmartFilterID": "Ignore",
+      "SmartExpressionEntity.Id_ExtParamsFileSettingEntity.SmartRenameOnUpload": "Ignore",
+      "SmartExpressionEntity.Id_ExtParamInSubcatEntity.DefaultValueSmartExpressionID": "Ignore",
+      "SmartExpressionEntity.Id_ExtParamsInSubcatValidatorEntity.SmartExpressionId": "Ignore",
+      "SmartExpressionEntity.Id_FilterParamCustomValueEntity.SmartExpressionId": "Ignore",
+      "SmartExpressionEntity.Id_FilterParamEntity.SmartExpressionId": "Ignore",
+      "SmartExpressionEntity.Id_SmartQueryEntity.YAxisExpressionId": "Ignore",
+      "SmartExpressionEntity.Id_LookupParamSettingEntity.SmartFilterId": "Ignore",
+      "SmartExpressionEntity.Id_MenuItemEntity.NameSmartExpressionId": "Ignore",
+      "SmartExpressionEntity.Id_MenuItemEntity.UrlSmartExpressionId": "Ignore",
+      "SmartExpressionEntity.Id_MsOfficeInteractionSettingEntity.FirstFileExpressionId": "Ignore",
+      "SmartExpressionEntity.Id_MsOfficeInteractionSettingEntity.RedLineCompareTypeExpressionId": "Ignore",
+      "SmartExpressionEntity.Id_MsOfficeInteractionSettingEntity.SecondFileExpressionId": "Ignore",
+      "SmartExpressionEntity.Id_MsOfficeInteractionSettingEntity.ShowComparisonExpressionId": "Ignore",
+      "SmartExpressionEntity.Id_PacksActionsParameterEntity.ExpressionID": "Ignore",
+      "SmartExpressionEntity.Id_PortalGridBlockFilterEntity.SmartExpressionId": "Ignore",
+      "SmartExpressionEntity.Id_PortalGridBlockEntity.WidgetNameSmartId": "Ignore",
+      "SmartExpressionEntity.Id_PortalGridFilterParamBlockValueEntity.SmartExpressionId": "Ignore",
+      "SmartExpressionEntity.Id_PortalGridFilterParamEntity.SmartExpressionId": "Ignore",
+      "SmartExpressionEntity.Id_ReplacerEntity.SmartIdBasicText": "Ignore",
+      "SmartExpressionEntity.Id_ReplacerEntity.SmartIdFinalText": "Ignore",
+      "SmartExpressionEntity.Id_SmartAccessEntity.UsersSmartExpressionId": "Ignore",
+      "SmartExpressionEntity.Id_SmartAccessForExtParamInSubcatEntity.UsersSmartExpressionId": "Ignore",
+      "SmartExpressionEntity.SubcatId_SubcategoryEntity.Id": "Ignore",
+      "SmartExpressionEntity.Id_SmartQueryEntity.SmartFilterId": "Ignore",
+      "SmartExpressionEntity.Id_SmartQueryEntity.XAxisExpressionId": "Ignore",
+      "SmartExpressionEntity.Id_SmartRecurrenceEntity.SmartFilterId": "Ignore",
+      "SmartExpressionEntity.Id_StartPageBlocksSubcatTemplateEntity.FilterID": "Ignore",
+      "SmartExpressionEntity.Id_StartPageBlocksSubcatTemplateEntity.SmartTemplateID": "Ignore",
+      "SmartExpressionEntity.Id_StatesRoutesInSubcatEntity.VisibilitySmartFilterID": "Ignore",
+      "SmartExpressionEntity.Id_StatesRoutesSignatureEntity.TimeToSignSmartId": "Ignore",
+      "SmartExpressionEntity.Id_StatesRoutesSignatureEntity.ReasonSmartId": "Ignore",
+      "SmartExpressionEntity.Id_StatsFromSearchEntity.SmartFilterID": "Ignore",
+      "SmartExpressionEntity.Id_SubcategoryEntity.ChangeDueConfirmSignatureSmartExpressionId": "Ignore",
+      "SmartExpressionEntity.Id_SubcategoryEntity.DelegateTaskConfirmSignatureSmartExpressionId": "Ignore",
+      "SmartExpressionEntity.Id_SubcategoryEntity.MainTaskFormTemplateIdSmartExpressionId": "Ignore",
+      "SmartExpressionEntity.Id_SubcategoryEntity.MtfDefaultTemplateVisibilitySmartId": "Ignore",
+      "SmartExpressionEntity.Id_SubcategoryEntity.NewTaskFormTemplateIdSmartExpressionId": "Ignore",
+      "SmartExpressionEntity.Id_SubcategoryEntity.RMResourcesVisibilitySmartExpressionId": "Ignore",
+      "SmartExpressionEntity.Id_SubcategoryEntity.SpecialUsersSmartExpressionId": "Ignore",
+      "SmartExpressionEntity.Id_SubcategoryEntity.MainRouteStepsAvailableSmartExpressionId": "Ignore",
+      "SmartExpressionEntity.Id_SubcategoryEntity.TaskOwnerChangeSmartExpressionId": "Ignore",
+      "SmartExpressionEntity.Id_SubcategoryTemplateEntity.VisibilitySmartId": "Ignore",
+      "SmartExpressionEntity.Id_TaskFormCustomButtonEntity.DisabledReasonSmartExpressionId": "Ignore",
+      "SmartExpressionEntity.Id_TaskFormCustomButtonEntity.UrlSmartExpressionId": "Ignore",
+      "SmartExpressionEntity.Id_TaskFormCustomButtonEntity.VisibilitySmartFilterId": "Ignore",
+      "SmartExpressionEntity.Id_TaskFormCustomButtonEntity.MakeSubtaskSmartExpressionId": "Ignore",
+      "SmartExpressionEntity.Id_TaskFormCustomButtonEntity.MakeLinkedSmartExpressionId": "Ignore",
+      "SmartExpressionEntity.Id_TaskUniversalTemplateMatrixEntity.SmartFilterId": "Ignore",
+      "SmartExpressionEntity.Id_TelephonyActionsPackEntity.SmartFilterID": "Ignore",
+      "SmartExpressionEntity.Id_ExtParamBlockEntity.HiddenSmartFilterId": "Ignore",
+      "SmartExpressionEntity.Id_ExtParamBlockEntity.MinimizedSmartFilterId": "Ignore",
+      "SmartExpressionEntity.Id_ExtParamBlocksGroupEntity.HiddenSmartFilterId": "Ignore",
+      "SmartExpressionEntity.Id_ExtParamBlocksGroupEntity.MinimizedSmartFilterId": "Ignore",
+      "SmartExpressionEntity.OwnerUserId_UserEntity.Id": "Ignore",
+      "SmartExpressionEntity.Id_ExtParamSelectUserSettingEntity.SmartFilterId": "Ignore",
+      "SmartExpressionEntity.Id_ExtParamSelectUserSettingEntity.OrgUnitSmartFilterId": "Ignore",
+      "SmartExpressionEntity.Id_ExtParamTableSettingEntity.DefaultValueSmartExpressionId": "Ignore",
+      "SmartExpressionEntity.Id_StatesRoutesSignatureEntity.SmartFilterId": "Ignore",
+      "SmartExpressionEntity.Id_ActionButtonInListEntity.UrlSmartExpressionId": "Ignore",
+      "SmartExpressionEntity.Id_StepSubTaskEntity.SmartFilterID": "Ignore",
+      "SmartExpressionEntity.Id_ExternalObjectsSmartExpressionRightEntity.SmartExpressionId": "Ignore",
+      "SmartExpressionEntity.Id_ExtParamTableSettingEntity.SmartExpressionId": "Ignore",
+      "SmartExpressionEntity.Id_StatesRoutesInSubcatEntity.RedirectUrlAfterStepSmartExpressionID": "Ignore",
+      "SmartExpressionEntity.Id_TaskDataSourceEntity.SmartSortId": "Ignore",
+      "SmartExpressionEntity.Id_TaskDataSourceEntity.SmartFilterId": "Ignore",
+      "SmartExpressionEntity.Id_SignatureEntity.SmartExpressionId": "Ignore",
+      "SmartExpressionEntity.Id_SignatureEntity.BaseUserSmartId": "Ignore",
+      "SmartExpressionEntity.Id_FilterParamEntity.DefaultValueSmartExpressionId": "Ignore",
+      "SmartExpressionEntity.Id_EdsStatesRoutesSignaturesEntity.SourceFilesSmartExpressionId": "Merge",
+      "SmartExpressionEntity.Id_EdsStatesRoutesSignaturesEntity.SourceINNSmartExpressionId": "Merge",
+      "SmartExpressionEntity.Id_EdsStatesRoutesSignaturesEntity.SourceMCHDSmartExpressionId": "Merge",
+      "SmartExpressionEntity.Id_CustomTaskUsedAsEpBlockEntity.SmartId": "Ignore",
+      "SmartExpressionEntity.Id_GridFilterSettingEntity.SmartSearchExpressionId": "Ignore",
+      "SmartExpressionEntity.Id_ApiContainerEntity.SmartExpressionId": "Ignore",
+      "SmartExpressionEntity.Id_CustomQueueActionsEntity.SmartFilterID": "Ignore",
+      "SmartExpressionEntity.Id_MsOfficeInteractionSettingEntity.FirstFileMergeExpressionId": "Ignore",
+      "SmartExpressionEntity.Id_MsOfficeInteractionSettingEntity.SecondFileMergeExpressionId": "Ignore",
+      "SmartExpressionEntity.Id_CustomTaskUsedAsEpBlockSettingEntity.ShowCreateButtonSmartId": "Ignore",
+      "SmartExpressionEntity.Id_JitsiServiceSettingsEntity.IsModeratorSmartFilterId": "Ignore",
+      "SmartExpressionEntity.Id_JitsiServiceSettingsEntity.CheckSecurityBypassSmartFilterId": "Ignore",
+      "SmartExpressionEntity.Id_SmartExpressionTestCaseEntity.SmartExpressionId": "Ignore",
+      "SmartExpressionEntity.ModuleId_ModuleEntity.Id": "Ignore",
+      "SmartExpressionEntity.Id_SmartExpressionVersionEntity.ExpressionId": "Include"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Signatures.Eds.EdsStatesRoutesSignaturesEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "EdsStatesRoutesSignaturesEntity.StepSignId_StatesRoutesSignatureEntity.Id": "Ignore",
+      "EdsStatesRoutesSignaturesEntity.Id_EdsSignaturesEpFilesEntity.EdsStatesRoutesSignaturesId": "Merge",
+      "EdsStatesRoutesSignaturesEntity.SourceFilesSmartExpressionId_SmartExpressionEntity.Id": "Ignore",
+      "EdsStatesRoutesSignaturesEntity.SourceINNSmartExpressionId_SmartExpressionEntity.Id": "Ignore",
+      "EdsStatesRoutesSignaturesEntity.SourceMCHDSmartExpressionId_SmartExpressionEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Signatures.Eds.EdsSignaturesEpFilesEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "EdsSignaturesEpFilesEntity.EdsStatesRoutesSignaturesId_EdsStatesRoutesSignaturesEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Smart.SmartExpressionVersionEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "SmartExpressionVersionEntity.UserId_UserEntity.Id": "Ignore",
+      "SmartExpressionVersionEntity.ExpressionId_SmartExpressionEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Smart.PacksActionEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "PacksActionEntity.ActionsPackId_ActionsPackEntity.Id": "Ignore",
+      "PacksActionEntity.Id_PacksActionsParameterEntity.PackActionID": "Merge"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Smart.PacksActionsParameterEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "PacksActionsParameterEntity.PackActionID_PacksActionEntity.Id": "Ignore",
+      "PacksActionsParameterEntity.ExpressionID_SmartExpressionEntity.Id": "Include",
+      "PacksActionsParameterEntity.ScriptId_SmartScriptEntity.Id": "Include",
+      "_virtual_.PacksActionsParametersToSmartExpressions": "Merge"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Smart.SmartScriptEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "SmartScriptEntity.SubcatId_SubcategoryEntity.Id": "Ignore",
+      "SmartScriptEntity.Id_PacksActionsParameterEntity.ScriptId": "Ignore",
+      "SmartScriptEntity.Id_TaskDataSourceEntity.LuaScriptId": "Ignore",
+      "SmartScriptEntity.ModuleId_ModuleEntity.Id": "Ignore",
+      "SmartScriptEntity.Id_SmartScriptVersionEntity.ScriptId": "Include",
+      "SmartScriptEntity.Id_JitsiServiceSettingsEntity.CheckIsModeratorSmartScriptId": "Ignore",
+      "SmartScriptEntity.Id_JitsiServiceSettingsEntity.CheckSecurityBypassSmartScriptId": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Smart.SmartScriptVersionEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "SmartScriptVersionEntity.UserId_UserEntity.Id": "Ignore",
+      "SmartScriptVersionEntity.ScriptId_SmartScriptEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.CustomEventEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "CustomEventEntity.SubcatId_SubcategoryEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.CustomTaskUsedAsEpBlock.CustomTaskUsedAsEpBlockEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "CustomTaskUsedAsEpBlockEntity.Id_CustomTaskUsedAsEpBlockSettingEntity.BlockId": "Merge",
+      "CustomTaskUsedAsEpBlockEntity.SubcatId_SubcategoryEntity.Id": "Ignore",
+      "CustomTaskUsedAsEpBlockEntity.Id_SubcategoryMobileDynamicTemplateTabControlEntity.TaskUsedAsBlockId": "Ignore",
+      "CustomTaskUsedAsEpBlockEntity.SmartId_SmartExpressionEntity.Id": "Include",
+      "CustomTaskUsedAsEpBlockEntity.LocalizedNameId_LocalizedBusinessObjectEntity.Id": "Include",
+      "CustomTaskUsedAsEpBlockEntity.Id_CustomTaskUsedAsEpBlockSettingsToBlockEntity.BlockId": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.CustomTaskUsedAsEpBlock.CustomTaskUsedAsEpBlockSettingEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "CustomTaskUsedAsEpBlockSettingEntity.BlockId_CustomTaskUsedAsEpBlockEntity.Id": "Ignore",
+      "CustomTaskUsedAsEpBlockSettingEntity.SmartId_SmartExpressionEntity.Id": "Include",
+      "CustomTaskUsedAsEpBlockSettingEntity.SubcatId_SubcategoryEntity.Id": "Ignore",
+      "CustomTaskUsedAsEpBlockSettingEntity.LocalizedNameId_LocalizedBusinessObjectEntity.Id": "Include",
+      "CustomTaskUsedAsEpBlockSettingEntity.CreateButtonLinkUrlSmartId_SmartExpressionEntity.Id": "Include",
+      "CustomTaskUsedAsEpBlockSettingEntity.ShowCreateButtonSmartId_SmartExpressionEntity.Id": "Include",
+      "CustomTaskUsedAsEpBlockSettingEntity.DataSourceSettingId_DataSourceSettingEntity.Id": "Ignore",
+      "CustomTaskUsedAsEpBlockSettingEntity.Id_DataSourceSettingEntity.EntityId": "Include",
+      "CustomTaskUsedAsEpBlockSettingEntity.Id_CustomTaskUsedAsEpBlockSettingsToBlockEntity.BlockSettingsId": "Include"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "LocalizedBusinessObjectEntity.Id_LocalizedBusinessObjectValueEntity.LocalizationId": "Merge",
+      "LocalizedBusinessObjectEntity.Id_CategoryEntity.LocalizedDescriptionId": "Ignore",
+      "LocalizedBusinessObjectEntity.Id_SubcategoryEntity.LocalizedDescriptionId": "Ignore",
+      "LocalizedBusinessObjectEntity.Id_SubcategoryEntity.LocalizedEntityId": "Ignore",
+      "LocalizedBusinessObjectEntity.Id_StatesRoutesInSubcatEntity.LocalizedStepDescrId": "Ignore",
+      "LocalizedBusinessObjectEntity.Id_StatesRoutesInSubcatEntity.LocalizedStepTooltipId": "Ignore",
+      "LocalizedBusinessObjectEntity.Id_StatesRoutesInSubcatEntity.LocalizedStepOwnerTooltipId": "Ignore",
+      "LocalizedBusinessObjectEntity.Id_StatesRoutesInSubcatEntity.LocalizedStepUserTooltipId": "Ignore",
+      "LocalizedBusinessObjectEntity.Id_StatesRoutesInSubcatEntity.LocalizedConfirmTextId": "Ignore",
+      "LocalizedBusinessObjectEntity.Id_StateEntity.LocalizedNameId": "Ignore",
+      "LocalizedBusinessObjectEntity.Id_ExtParamEntity.LocalizedExtParamNameId": "Ignore",
+      "LocalizedBusinessObjectEntity.Id_ExtParamEntity.LocalizedTooltipId": "Ignore",
+      "LocalizedBusinessObjectEntity.Id_ExtParamBlockEntity.LocalizedNameId": "Ignore",
+      "LocalizedBusinessObjectEntity.Id_SignatureEntity.LocalizedDescriptionId": "Ignore",
+      "LocalizedBusinessObjectEntity.Id_SignatureResolutionTypeEntity.LocalizedNameId": "Ignore",
+      "LocalizedBusinessObjectEntity.Id_TaskFormCustomButtonEntity.LocalizedNameId": "Ignore",
+      "LocalizedBusinessObjectEntity.Id_TaskFormCustomButtonEntity.LocalizedMemoId": "Ignore",
+      "LocalizedBusinessObjectEntity.Id_ExtParamInSubcatEntity.LocalizedExtParamNameId": "Ignore",
+      "LocalizedBusinessObjectEntity.Id_PortalGridBlockEntity.LocalizedNameId": "Ignore",
+      "LocalizedBusinessObjectEntity.Id_MenuItemEntity.LocalizedNameId": "Ignore",
+      "LocalizedBusinessObjectEntity.Id_FilterParamEntity.LocalizedTitleId": "Ignore",
+      "LocalizedBusinessObjectEntity.Id_ActionButtonInListEntity.LocalizedNameId": "Ignore",
+      "LocalizedBusinessObjectEntity.Id_ActionButtonInListEntity.LocalizedDesriptionId": "Ignore",
+      "LocalizedBusinessObjectEntity.Id_PortalGridOtherLocalizationEntity.LocalizedTitleId": "Ignore",
+      "LocalizedBusinessObjectEntity.Id_ExtParamOptionEntity.LocalizedOptionId": "Ignore",
+      "LocalizedBusinessObjectEntity.Id_CustomTaskUsedAsEpBlockEntity.LocalizedNameId": "Ignore",
+      "LocalizedBusinessObjectEntity.Id_CustomTaskUsedAsEpBlockSettingEntity.LocalizedNameId": "Ignore",
+      "LocalizedBusinessObjectEntity.Id_SubcategoryEntity.LocalizedSrokNameId": "Ignore",
+      "LocalizedBusinessObjectEntity.Id_SubcategoryEntity.LocalizedSendButtonId": "Ignore",
+      "LocalizedBusinessObjectEntity.Id_SubcategoryEntity.LocalizedTaskStartTimeNameId": "Ignore",
+      "LocalizedBusinessObjectEntity.Id_SubcategoryEntity.LocalizedTechnicalWorksTextId": "Ignore",
+      "LocalizedBusinessObjectEntity.Id_CustomTabEntity.LocalizedTabNameId": "Ignore",
+      "LocalizedBusinessObjectEntity.Id_ApiContainerTemplateValueEntity.LocalizedValueId": "Ignore",
+      "LocalizedBusinessObjectEntity.Id_ApiBlockTemplateValueEntity.LocalizedValueId": "Ignore",
+      "LocalizedBusinessObjectEntity.Id_ApiFolderTemplateValueEntity.LocalizedValueId": "Ignore",
+      "LocalizedBusinessObjectEntity.Id_SettingEntity.LocalizedNavigationPanelLogoId": "Ignore",
+      "LocalizedBusinessObjectEntity.Id_StatesRoutesSignatureEntity.LocalizedReasonId": "Ignore",
+      "LocalizedBusinessObjectEntity.Id_UserFavsFolderEntity.LocalizedNameId": "Ignore",
+      "LocalizedBusinessObjectEntity.Id_UserLinkEntity.LocalizedTitleId": "Ignore",
+      "LocalizedBusinessObjectEntity.Id_ExtParamTableSettingEntity.LocalizedNameId": "Ignore",
+      "LocalizedBusinessObjectEntity.Id_ExtParamTableSectionEntity.LocalizedNameId": "Ignore",
+      "LocalizedBusinessObjectEntity.Id_FileStorageFolderEntity.LocalizedNameId": "Ignore",
+      "LocalizedBusinessObjectEntity.Id_FreeBusyStatusEntity.LocalizedNameId": "Ignore",
+      "LocalizedBusinessObjectEntity.Id_AbsenceTypeEntity.LocalizedNameId": "Ignore",
+      "LocalizedBusinessObjectEntity.Id_PasswordPolicyEntity.LocalizedMessageId": "Ignore",
+      "LocalizedBusinessObjectEntity.Id_AqbMetadataEntity.LocalizationId": "Ignore",
+      "LocalizedBusinessObjectEntity.Id_ExtParamSelectUserSettingEntity.LocalizedButtonTitleId": "Ignore",
+      "LocalizedBusinessObjectEntity.Id_ExtParamSelectUserSettingEntity.LocalizedOnlyCurrentUserId": "Ignore",
+      "LocalizedBusinessObjectEntity.Id_ExtParamSelectUserSettingEntity.LocalizedRemoveUserId": "Ignore",
+      "LocalizedBusinessObjectEntity.Id_ExtParamSelectUserSettingEntity.LocalizedRemoveAllId": "Ignore",
+      "LocalizedBusinessObjectEntity.Id_ExtParamSelectUserSettingEntity.LocalizedUserInfoId": "Ignore",
+      "LocalizedBusinessObjectEntity.Id_ExtParamSelectUserSettingEntity.LocalizedEmptyTooltipId": "Ignore",
+      "LocalizedBusinessObjectEntity.Id_ExtParamSelectUserSettingEntity.LocalizedSelectListTitleId": "Ignore",
+      "LocalizedBusinessObjectEntity.Id_EmojiReactionEntity.LocalizedNameId": "Ignore",
+      "LocalizedBusinessObjectEntity.Id_EmojiReactionEntity.LocalizedDescriptionId": "Ignore",
+      "LocalizedBusinessObjectEntity.Id_GlobalStepSettingEntity.LocalizedDescriptionId": "Ignore",
+      "LocalizedBusinessObjectEntity.Id_GlobalStepSettingEntity.LocalizedForMailId": "Ignore",
+      "LocalizedBusinessObjectEntity.Id_GlobalStepSettingEntity.LocalizedForMailCustomerId": "Ignore",
+      "LocalizedBusinessObjectEntity.Id_GlobalStepSettingEntity.LocalizedCommentOnAttainmentId": "Ignore",
+      "LocalizedBusinessObjectEntity.Id_GlobalStepSettingEntity.LocalizedParentCommentId": "Ignore",
+      "LocalizedBusinessObjectEntity.Id_StateEntity.LocalizedForMailId": "Ignore",
+      "LocalizedBusinessObjectEntity.Id_StateEntity.LocalizedForMailCustomerId": "Ignore",
+      "LocalizedBusinessObjectEntity.Id_StateEntity.LocalizedCommentOnAttainmentId": "Ignore",
+      "LocalizedBusinessObjectEntity.Id_StateEntity.LocalizedParentCommentId": "Ignore",
+      "LocalizedBusinessObjectEntity.Id_OrgStructureTypeEntity.LocalizedNameId": "Ignore",
+      "LocalizedBusinessObjectEntity.Id_UserTaskOnlySettingEntity.LocalizedNameId": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Localization.LocalizedBusinessObjectValueEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "LocalizedBusinessObjectValueEntity.LocalizationId_LocalizedBusinessObjectEntity.Id": "Ignore",
+      "LocalizedBusinessObjectValueEntity.LanguageId_LanguageEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.NewDataSources.DataSourceSettingEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "DataSourceSettingEntity.UserId_UserEntity.Id": "Ignore",
+      "DataSourceSettingEntity.Id_CustomTaskUsedAsEpBlockSettingEntity.DataSourceSettingId": "Ignore",
+      "DataSourceSettingEntity.EntityId_CustomTaskUsedAsEpBlockSettingEntity.Id": "Ignore",
+      "DataSourceSettingEntity.Id_MenuItemTickerEntity.DataSourceSettingId": "Ignore",
+      "DataSourceSettingEntity.EntityId_SubcategoryEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.CustomTaskUsedAsEpBlock.CustomTaskUsedAsEpBlockSettingsToBlockEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "CustomTaskUsedAsEpBlockSettingsToBlockEntity.BlockId_CustomTaskUsedAsEpBlockEntity.Id": "Ignore",
+      "CustomTaskUsedAsEpBlockSettingsToBlockEntity.BlockSettingsId_CustomTaskUsedAsEpBlockSettingEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Decompositions.DecompositionEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "DecompositionEntity.Id_DecompositionLinkToSubcatEntity.DecompositionId": "Include",
+      "DecompositionEntity.SubcatId_SubcategoryEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Decompositions.DecompositionLinkToSubcatEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "DecompositionLinkToSubcatEntity.DecompositionId_DecompositionEntity.Id": "Ignore",
+      "DecompositionLinkToSubcatEntity.SubcatId_SubcategoryEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.EventsActionEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "EventsActionEntity.ActionsPackID_ActionsPackEntity.Id": "Include",
+      "EventsActionEntity.SmartFilterID_SmartExpressionEntity.Id": "Include",
+      "EventsActionEntity.SubcatID_SubcategoryEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.ExtParams.ExtParamBlockEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "ExtParamBlockEntity.MinimizedSmartFilterId_SmartExpressionEntity.Id": "Include",
+      "ExtParamBlockEntity.HiddenSmartFilterId_SmartExpressionEntity.Id": "Include",
+      "ExtParamBlockEntity.Id_ExtParamInSubcatEntity.BlockId": "Ignore",
+      "ExtParamBlockEntity.SubcatId_SubcategoryEntity.Id": "Ignore",
+      "ExtParamBlockEntity.Id_SubcategoryMobileDynamicTemplateTabControlEntity.ExtParamBlockId": "Ignore",
+      "ExtParamBlockEntity.LocalizedNameId_LocalizedBusinessObjectEntity.Id": "Include",
+      "ExtParamBlockEntity.Id_ExtParamInSubcatToBlockEntity.BlockId": "Include",
+      "ExtParamBlockEntity.ExtParamBlocksGroupId_ExtParamBlocksGroupEntity.Id": "Include"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.ExtParams.ExtParamInSubcatToBlockEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "ExtParamInSubcatToBlockEntity.SubcatId+ExtParamId_ExtParamInSubcatEntity.SubcatId+ExtParamId": "Ignore",
+      "ExtParamInSubcatToBlockEntity.BlockId_ExtParamBlockEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.ExtParams.ExtParamBlocksGroupEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "ExtParamBlocksGroupEntity.HiddenSmartFilterId_SmartExpressionEntity.Id": "Include",
+      "ExtParamBlocksGroupEntity.MinimizedSmartFilterId_SmartExpressionEntity.Id": "Include",
+      "ExtParamBlocksGroupEntity.SubcatId_SubcategoryEntity.Id": "Ignore",
+      "ExtParamBlocksGroupEntity.Id_ExtParamBlockEntity.ExtParamBlocksGroupId": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.ExtParams.ExtParamInSubcatEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "ExtParamInSubcatEntity.TaskEntityPermissionSetID_TaskPermissionSetEntity.Id": "Include",
+      "ExtParamInSubcatEntity.ExtParamId_ExtParamEntity.Id": "Include",
+      "ExtParamInSubcatEntity.BlockId_ExtParamBlockEntity.Id": "Ignore",
+      "ExtParamInSubcatEntity.SubcatId+ExtParamId_ExtParamPermissionEntity.SubcatId+ExtParamId": "Merge",
+      "ExtParamInSubcatEntity.ValidatorId_ExtParamsInSubcatValidatorEntity.Id": "Include",
+      "ExtParamInSubcatEntity.Id_ExtParamTableSettingsInSubcatEntity.ExtParamInSubcatId": "Merge",
+      "ExtParamInSubcatEntity.Id_ExtParamTableSettingsInSubcatGroupPermissionEntity.ExtParamInSubcatId": "Merge",
+      "ExtParamInSubcatEntity.Id_ExtParamTableSettingsInSubcatStatePermissionEntity.ExtParamInSubcatId": "Merge",
+      "ExtParamInSubcatEntity.DefaultValueSmartExpressionID_SmartExpressionEntity.Id": "Include",
+      "ExtParamInSubcatEntity.SubcatId_SubcategoryEntity.Id": "Ignore",
+      "ExtParamInSubcatEntity.SubcatId_SmartAccessForExtParamInSubcatEntity.SubcatId": "Ignore",
+      "ExtParamInSubcatEntity.LocalizedExtParamNameId_LocalizedBusinessObjectEntity.Id": "Include",
+      "ExtParamInSubcatEntity.SubcatId+ExtParamId_ExtParamInSubcatToBlockEntity.SubcatId+ExtParamId": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.TaskPermissions.TaskPermissionSetEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "TaskPermissionSetEntity.Id_TaskPermissionEntity.TaskEntityPermissionsSetId": "Include",
+      "TaskPermissionSetEntity.Id_TaskFormCustomButtonEntity.TaskEntityPermissionSetID": "Ignore",
+      "TaskPermissionSetEntity.Id_ExtParamInSubcatEntity.TaskEntityPermissionSetID": "Ignore",
+      "TaskPermissionSetEntity.Id_StatesRoutesInSubcatEntity.TaskEntityPermissionSetID": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.TaskPermissions.TaskPermissionEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "TaskPermissionEntity.TaskEntityPermissionsSetId_TaskPermissionSetEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.ExtParams.ExtParamEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "ExtParamEntity.CustomerId_CustomerEntity.Id": "Ignore",
+      "ExtParamEntity.Id_CustomerZoneRubricExtparamEntity.ExtParamId": "Ignore",
+      "ExtParamEntity.Id_ExtParamAddresseesValueEntity.ExtParamId": "Ignore",
+      "ExtParamEntity.Id_ExtParamFileAllowedExtensionEntity.ExtParamID": "Include",
+      "ExtParamEntity.Id_ExtParamFileDefaultEntity.ExtParamId": "Ignore",
+      "ExtParamEntity.Id_ExtParamFromSubcatSubscriberEntity.ExtParamID": "Ignore",
+      "ExtParamEntity.Id_ExtParamFromSubcatSubscriberEntity.UserExtParamID": "Ignore",
+      "ExtParamEntity.Id_ExtParamHierarLookupSettingEntity.Id": "Ignore",
+      "ExtParamEntity.Id_ExtParamHierarLookupSettingEntity.FolderExtParamId": "Ignore",
+      "ExtParamEntity.Id_ExtParamHistoryEntity.ExtParamID": "Ignore",
+      "ExtParamEntity.Id_ExtParamLinkEntity.ChildExtParamID": "Include",
+      "ExtParamEntity.Id_ExtParamLinkEntity.MasterExtParamID": "Include",
+      "ExtParamEntity.Id_ExtParamMultiUserSortingEntity.ExtParamId": "Ignore",
+      "ExtParamEntity.Id_ExtParamNumberSettingEntity.Id": "Include",
+      "ExtParamEntity.Id_ExtParamDateSettingEntity.Id": "Include",
+      "ExtParamEntity.Id_ExtParamDateTimeSettingEntity.Id": "Include",
+      "ExtParamEntity.Id_ExtParamNumeratorEntity.Id": "Include",
+      "ExtParamEntity.Id_ExtParamNumeratorSubcatStepEntity.ExtParamId": "Merge",
+      "ExtParamEntity.Id_ExtParamOptionEntity.ExtParamID": "Merge",
+      "ExtParamEntity.Id_ExtParamSelectUserSettingEntity.Id": "Include",
+      "ExtParamEntity.Id_ExtParamSelectUserSettingsOrgUnitTypeEntity.ExtParamID": "Include",
+      "ExtParamEntity.Id_ExtParamSelectUsersValueEntity.ExtParamId": "Ignore",
+      "ExtParamEntity.Id_ExtParamSelectUsersValuesGroupEntity.ExtParamId": "Ignore",
+      "ExtParamEntity.Id_ExtParamSelectUsersValuesOrgUnitEntity.ExtParamId": "Ignore",
+      "ExtParamEntity.Id_ExtParamStateViewEntity.ExtParamID": "Ignore",
+      "ExtParamEntity.Id_ExtParamsFileEntity.ExtParamID": "Ignore",
+      "ExtParamEntity.Id_ExtParamsFileSettingEntity.Id": "Include",
+      "ExtParamEntity.Id_ExtParamsInPortalEntity.ExtParamID": "Ignore",
+      "ExtParamEntity.Id_ExtParamInSubcatEntity.ExtParamId": "Ignore",
+      "ExtParamEntity.Id_ExtParamSliderSettingEntity.Id": "Ignore",
+      "ExtParamEntity.Id_ExtParamTableCommonSettingEntity.Id": "Include",
+      "ExtParamEntity.Id_ExtParamTableSettingEntity.ExtParamId": "Merge",
+      "ExtParamEntity.Id_ExtParamTableSectionEntity.ExtParamId": "Merge",
+      "ExtParamEntity.Id_ExtParamTableSettingsInSubcatEntity.ExtParamId": "Ignore",
+      "ExtParamEntity.Id_ExtParamTableSettingsInSubcatGroupPermissionEntity.ExtParamId": "Ignore",
+      "ExtParamEntity.Id_ExtParamTableSettingsInSubcatStatePermissionEntity.ExtParamId": "Ignore",
+      "ExtParamEntity.Id_ExtParamTableSettingEntity.ReferencedExtParamId": "Ignore",
+      "ExtParamEntity.Id_ExtParamTableSettingEntity.VirtualColumnReferencedExtParamId": "Ignore",
+      "ExtParamEntity.Id_ExtParamTableTemplateEntity.Id": "Include",
+      "ExtParamEntity.Id_ExtParamTreeNodeEntity.ExtParamID": "Include",
+      "ExtParamEntity.Id_ExtParamTroughSettingEntity.ExtParamId": "Include",
+      "ExtParamEntity.Id_ExtParamTroughSettingEntity.TargetExtParamId": "Ignore",
+      "ExtParamEntity.Id_ExtParamValueEntity.ExtParamId": "Ignore",
+      "ExtParamEntity.Id_ExtParamValueSelectedTaskEntity.ExtParamID": "Ignore",
+      "ExtParamEntity.Id_ExtParamValueSelectedTaskFolderEntity.ExtParamId": "Ignore",
+      "ExtParamEntity.Id_ExtParamViewPersonalSettingEntity.ExtParamID": "Ignore",
+      "ExtParamEntity.Id_FeedBackSettingEntity.EpEmailID": "Ignore",
+      "ExtParamEntity.Id_FeedBackSettingEntity.EpIpID": "Ignore",
+      "ExtParamEntity.Id_FileStorageFileToExtParamLinkEntity.ExtParamId": "Ignore",
+      "ExtParamEntity.Id_ExtParamHierarLookupSettingEntity.ParentExtParamId": "Ignore",
+      "ExtParamEntity.Id_FeedBackSettingEntity.EpNameID": "Ignore",
+      "ExtParamEntity.Id_FeedBackSettingEntity.EpRateID": "Ignore",
+      "ExtParamEntity.Id_FeedBackSettingEntity.EpThemeID": "Ignore",
+      "ExtParamEntity.Id_FeedBackSettingEntity.EpTypeID": "Ignore",
+      "ExtParamEntity.Id_FeedBackSettingEntity.EpFixErrorThemesID": "Ignore",
+      "ExtParamEntity.Id_FeedBackSettingEntity.EpOtherThemesID": "Ignore",
+      "ExtParamEntity.Id_FeedBackSettingEntity.EpPayAttentionThemesID": "Ignore",
+      "ExtParamEntity.Id_FeedBackSettingEntity.EpTextProblemThemesID": "Ignore",
+      "ExtParamEntity.Id_SubcatMeetingSettingEntity.PlaceExtParamID": "Ignore",
+      "ExtParamEntity.Id_SubcatMeetingSettingEntity.HelperExtParamID": "Ignore",
+      "ExtParamEntity.Id_SubcatMeetingSettingEntity.TopicExtParamID": "Ignore",
+      "ExtParamEntity.Id_SubcatMeetingSettingEntity.ResultsExtParamID": "Ignore",
+      "ExtParamEntity.LookupParamSettingId_LookupParamSettingEntity.Id": "Include",
+      "ExtParamEntity.Id_MobileTemplatesMarkupMappingEntity.ExtParamID": "Ignore",
+      "ExtParamEntity.Id_MultiEpShowInGridParamEntity.ExtParamID": "Ignore",
+      "ExtParamEntity.Id_SchedulerHintPropertyEntity.ExtParamId": "Ignore",
+      "ExtParamEntity.Id_SettingEntity.CustomerZoneEPId": "Ignore",
+      "ExtParamEntity.Id_SettingEntity.CalendarEPCategoriesId": "Ignore",
+      "ExtParamEntity.Id_SettingEntity.CalendarEPExchangeUniqueId": "Ignore",
+      "ExtParamEntity.Id_SettingEntity.CalendarEPFreeBusyStatusID": "Ignore",
+      "ExtParamEntity.Id_SettingEntity.CalendarEPFromId": "Ignore",
+      "ExtParamEntity.Id_SettingEntity.CalendarEPIsAllDay": "Ignore",
+      "ExtParamEntity.Id_SettingEntity.CalendarEPIsAwayId": "Ignore",
+      "ExtParamEntity.Id_SettingEntity.CalendarEPIsOranizerId": "Ignore",
+      "ExtParamEntity.Id_SettingEntity.CalendarEPIsPrivateId": "Ignore",
+      "ExtParamEntity.Id_SettingEntity.CalendarEPLocationId": "Ignore",
+      "ExtParamEntity.Id_SettingEntity.CalendarEPMeetingCommentID": "Ignore",
+      "ExtParamEntity.Id_SettingEntity.CalendarEPOrganizerId": "Ignore",
+      "ExtParamEntity.Id_SettingEntity.CalendarEPOrganizersMeetingID": "Ignore",
+      "ExtParamEntity.Id_SettingEntity.CalendarEPParticipantID": "Ignore",
+      "ExtParamEntity.Id_SettingEntity.CalendarEPSubject": "Ignore",
+      "ExtParamEntity.Id_SettingEntity.CalendarEPToId": "Ignore",
+      "ExtParamEntity.Id_SettingEntity.CalendarEPTypeId": "Ignore",
+      "ExtParamEntity.Id_SettingEntity.CalendarEPUniqueIdForSyncId": "Ignore",
+      "ExtParamEntity.Id_SettingEntity.DPUserReserveMeeting": "Ignore",
+      "ExtParamEntity.Id_SettingEntity.RMInternalPerformerEPId": "Ignore",
+      "ExtParamEntity.Id_SettingEntity.RMMajorPerformerEPId": "Ignore",
+      "ExtParamEntity.Id_SettingEntity.RMMinorPerformerEPId": "Ignore",
+      "ExtParamEntity.Id_SettingEntity.RMPlanningAllowedGroupsEPId": "Ignore",
+      "ExtParamEntity.Id_SettingEntity.RMResourceAmountEPId": "Ignore",
+      "ExtParamEntity.Id_SettingEntity.RMResourceMeasureEPId": "Ignore",
+      "ExtParamEntity.Id_SettingEntity.RMResourceOwnerEPId": "Ignore",
+      "ExtParamEntity.Id_SettingEntity.RMResourceRateEPId": "Ignore",
+      "ExtParamEntity.Id_SettingEntity.RMResourceRateOvertimeEPId": "Ignore",
+      "ExtParamEntity.Id_SettingEntity.RMResourceResponsibleEPId": "Ignore",
+      "ExtParamEntity.Id_SettingEntity.RMResourceSubtypeEPId": "Ignore",
+      "ExtParamEntity.Id_SettingEntity.RMResourceTypeEPId": "Ignore",
+      "ExtParamEntity.Id_SettingEntity.SurveyEPIsAnonymousId": "Ignore",
+      "ExtParamEntity.Id_SignatureEntity.ExtParamId": "Ignore",
+      "ExtParamEntity.Id_SmartAccessTriggerExtParamEntity.ExtParamId": "Ignore",
+      "ExtParamEntity.Id_StatesRoutesActionsWithEPEntity.ExtParamID": "Ignore",
+      "ExtParamEntity.Id_StatesRoutesInSubcatEntity.AutoPerformerSourceExtParamID": "Ignore",
+      "ExtParamEntity.Id_StatesRoutesInSubcatEntity.TermDateSourceExtParamID": "Ignore",
+      "ExtParamEntity.Id_StatesRoutesSignaturesConditionEntity.ExtParamID": "Ignore",
+      "ExtParamEntity.Id_StepExtParamRestrictionEntity.ExtParamId": "Ignore",
+      "ExtParamEntity.Id_StepSubtaskExtparamConditionEntity.ExtParamID": "Ignore",
+      "ExtParamEntity.Id_StepSubtaskExtParamEntity.ExtParamID": "Ignore",
+      "ExtParamEntity.Id_StepSubtaskExtParamEntity.ParentExtParamID": "Ignore",
+      "ExtParamEntity.Id_SubcatDenormalizatorSettingEntity.ExtParamID": "Ignore",
+      "ExtParamEntity.Id_SubcategoryEntity.ExtParamIDToWriteInSubjects": "Ignore",
+      "ExtParamEntity.Id_SubcategoriesHierarhy1CExtparamsInGridEntity.ExtParamId": "Ignore",
+      "ExtParamEntity.Id_SubcategoriesHierarhy1CSettingEntity.FolderExtParamId": "Ignore",
+      "ExtParamEntity.Id_SubcategoriesHierarhy1CSettingEntity.ParentExtParamId": "Ignore",
+      "ExtParamEntity.Id_SubcategoryEntity.ProjectFactSumEpId": "Ignore",
+      "ExtParamEntity.Id_SubcategoryEntity.ProjectPlannedSumEpId": "Ignore",
+      "ExtParamEntity.Id_SubcategoryMobileDynamicTemplateTabControlEntity.ExtParamId": "Ignore",
+      "ExtParamEntity.Id_SubcategorySpecialTemplateSettingEntity.ExtParamId": "Ignore",
+      "ExtParamEntity.Id_SubcatMeetingSettingEntity.TypeExtParamID": "Ignore",
+      "ExtParamEntity.Id_SubcatMeetingSettingEntity.ParticipantsExtParamID": "Ignore",
+      "ExtParamEntity.Id_TagTypeExtParamEntity.ExtParamID": "Ignore",
+      "ExtParamEntity.Id_TaskHelpersTimeReportSettingEntity.GradeEPID": "Ignore",
+      "ExtParamEntity.Id_UserWatchedObjectEntity.ExtParamID": "Ignore",
+      "ExtParamEntity.Id_TextEpOptionEntity.Id": "Include",
+      "ExtParamEntity.Id_ExtParamsInSubCatFormulaEntity.ExtParamId": "Ignore",
+      "ExtParamEntity.Id_TaskUniversalTemplateSettingEntity.ExtParamId": "Ignore",
+      "ExtParamEntity.Id_StepSignExtParamRestrictionEntity.ExtParamId": "Ignore",
+      "ExtParamEntity.Id_ExtParamSelectSettingsEntity.Id": "Include",
+      "ExtParamEntity.Id_LookupParamSettingEntity.OrderExtParamId": "Ignore",
+      "ExtParamEntity.Id_SmartAccessForExtParamInSubcatTriggerExtParamEntity.ExtParamId": "Ignore",
+      "ExtParamEntity.Id_SmartAccessForExtParamsInSubcatRuleEntity.ExtParamId": "Merge",
+      "ExtParamEntity.Id_StepSignExtParamInfoEntity.ExtParamId": "Merge",
+      "ExtParamEntity.LocalizedExtParamNameId_LocalizedBusinessObjectEntity.Id": "Include",
+      "ExtParamEntity.LocalizedTooltipId_LocalizedBusinessObjectEntity.Id": "Include",
+      "ExtParamEntity.Id_RegistryEntity.OwnerExtParamId": "Ignore",
+      "ExtParamEntity.Id_ViewTagsMappingEntity.ExtParamID": "Ignore",
+      "ExtParamEntity.ModuleId_ModuleEntity.Id": "Ignore",
+      "ExtParamEntity.Id_Sync1CEventQueueEntity.ExtParamID": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.ExtParams.ExtParamFileAllowedExtensionEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "ExtParamFileAllowedExtensionEntity.ExtParamID_ExtParamEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.ExtParams.ExtParamLinkEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "ExtParamLinkEntity.MasterExtParamID_ExtParamEntity.Id": "Ignore",
+      "ExtParamLinkEntity.ChildExtParamID_ExtParamEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.ExtParams.ExtParamNumberSettingEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "ExtParamNumberSettingEntity.Id_ExtParamEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.ExtParams.ExtParamDateSettingEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "ExtParamDateSettingEntity.Id_ExtParamEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.ExtParams.ExtParamDateTimeSettingEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "ExtParamDateTimeSettingEntity.Id_ExtParamEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.ExtParams.ExtParamNumeratorEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "ExtParamNumeratorEntity.Id_ExtParamEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.ExtParams.ExtParamNumeratorSubcatStepEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "ExtParamNumeratorSubcatStepEntity.ExtParamId_ExtParamEntity.Id": "Ignore",
+      "ExtParamNumeratorSubcatStepEntity.StateId_StateEntity.Id": "Ignore",
+      "ExtParamNumeratorSubcatStepEntity.SubcatId_SubcategoryEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.ExtParams.ExtParamOptionEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "ExtParamOptionEntity.ExtParamID_ExtParamEntity.Id": "Ignore",
+      "ExtParamOptionEntity.LocalizedOptionId_LocalizedBusinessObjectEntity.Id": "Include"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.ExtParams.ExtParamSelectUserSettingEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "ExtParamSelectUserSettingEntity.Id_ExtParamEntity.Id": "Ignore",
+      "ExtParamSelectUserSettingEntity.GroupId_GroupEntity.Id": "Ignore",
+      "ExtParamSelectUserSettingEntity.OrgUnitId_OrgStructureUnitEntity.Id": "Ignore",
+      "ExtParamSelectUserSettingEntity.SmartFilterId_SmartExpressionEntity.Id": "Include",
+      "ExtParamSelectUserSettingEntity.OrgUnitSmartFilterId_SmartExpressionEntity.Id": "Include",
+      "ExtParamSelectUserSettingEntity.LocalizedButtonTitleId_LocalizedBusinessObjectEntity.Id": "Include",
+      "ExtParamSelectUserSettingEntity.LocalizedOnlyCurrentUserId_LocalizedBusinessObjectEntity.Id": "Include",
+      "ExtParamSelectUserSettingEntity.LocalizedRemoveUserId_LocalizedBusinessObjectEntity.Id": "Include",
+      "ExtParamSelectUserSettingEntity.LocalizedRemoveAllId_LocalizedBusinessObjectEntity.Id": "Include",
+      "ExtParamSelectUserSettingEntity.LocalizedUserInfoId_LocalizedBusinessObjectEntity.Id": "Include",
+      "ExtParamSelectUserSettingEntity.LocalizedEmptyTooltipId_LocalizedBusinessObjectEntity.Id": "Include",
+      "ExtParamSelectUserSettingEntity.LocalizedSelectListTitleId_LocalizedBusinessObjectEntity.Id": "Include"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.ExtParams.ExtParamSelectUserSettingsOrgUnitTypeEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "ExtParamSelectUserSettingsOrgUnitTypeEntity.ExtParamID_ExtParamEntity.Id": "Ignore",
+      "ExtParamSelectUserSettingsOrgUnitTypeEntity.OrgTypeID_OrgStructureTypeEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.ExtParams.ExtParamsFileSettingEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "ExtParamsFileSettingEntity.Id_ExtParamEntity.Id": "Ignore",
+      "ExtParamsFileSettingEntity.MsOfficeInteractionSettingId_MsOfficeInteractionSettingEntity.Id": "Include",
+      "ExtParamsFileSettingEntity.SmartRenameOnUpload_SmartExpressionEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.MsOfficeInteractionSettingEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "MsOfficeInteractionSettingEntity.Id_ExtParamsFileSettingEntity.MsOfficeInteractionSettingId": "Ignore",
+      "MsOfficeInteractionSettingEntity.Id_ExtParamTableSettingEntity.MsOfficeInteractionSettingId": "Ignore",
+      "MsOfficeInteractionSettingEntity.FirstFileExpressionId_SmartExpressionEntity.Id": "Ignore",
+      "MsOfficeInteractionSettingEntity.RedLineCompareTypeExpressionId_SmartExpressionEntity.Id": "Ignore",
+      "MsOfficeInteractionSettingEntity.SecondFileExpressionId_SmartExpressionEntity.Id": "Ignore",
+      "MsOfficeInteractionSettingEntity.ShowComparisonExpressionId_SmartExpressionEntity.Id": "Ignore",
+      "MsOfficeInteractionSettingEntity.Id_SubcategoryEntity.MsOfficeInteractionSettingId": "Ignore",
+      "MsOfficeInteractionSettingEntity.FirstFileMergeExpressionId_SmartExpressionEntity.Id": "Ignore",
+      "MsOfficeInteractionSettingEntity.SecondFileMergeExpressionId_SmartExpressionEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.ExtParams.ExtParamTableCommonSettingEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "ExtParamTableCommonSettingEntity.Id_ExtParamEntity.Id": "Ignore",
+      "ExtParamTableCommonSettingEntity.FileProviderId_FileProviderEntity.Id": "Ignore",
+      "ExtParamTableCommonSettingEntity.KeyColumnId_ExtParamTableSettingEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.ExtParams.ExtParamTableSettingEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "ExtParamTableSettingEntity.ExtParamId_ExtParamEntity.Id": "Ignore",
+      "ExtParamTableSettingEntity.VirtualColumnReferencedExtParamId_ExtParamEntity.Id": "Ignore",
+      "ExtParamTableSettingEntity.Id_ExtParamTableCommonSettingEntity.KeyColumnId": "Ignore",
+      "ExtParamTableSettingEntity.Id_ExtParamTableOptionEntity.ExtParamTableRowID": "Include",
+      "ExtParamTableSettingEntity.Id_ExtParamTableSettingsInSubcatEntity.ColumnId": "Ignore",
+      "ExtParamTableSettingEntity.Id_ExtParamTableSettingsInSubcatGroupPermissionEntity.ColumnId": "Ignore",
+      "ExtParamTableSettingEntity.Id_ExtParamTableSettingsInSubcatStatePermissionEntity.ColumnId": "Ignore",
+      "ExtParamTableSettingEntity.Id_ExtParamTableValueEntity.ColumnId": "Ignore",
+      "ExtParamTableSettingEntity.Id_FileStorageFileToExtParamLinkEntity.TableColumnId": "Ignore",
+      "ExtParamTableSettingEntity.VirtualColumnReferencedLookupColumnId_ExtParamTableSettingEntity.Id": "Ignore",
+      "ExtParamTableSettingEntity.Id_ExtParamTableSettingEntity.VirtualColumnReferencedLookupColumnId": "Ignore",
+      "ExtParamTableSettingEntity.ReferencedExtParamId_ExtParamEntity.Id": "Include",
+      "ExtParamTableSettingEntity.LookupParamSettingID_LookupParamSettingEntity.Id": "Ignore",
+      "ExtParamTableSettingEntity.Id_ActionButtonInListEntity.EpTableColumnId": "Merge",
+      "ExtParamTableSettingEntity.MsOfficeInteractionSettingId_MsOfficeInteractionSettingEntity.Id": "Include",
+      "ExtParamTableSettingEntity.Id_SubcategorySpecialTemplateSettingEntity.ColumnId": "Ignore",
+      "ExtParamTableSettingEntity.DefaultValueSmartExpressionId_SmartExpressionEntity.Id": "Include",
+      "ExtParamTableSettingEntity.Id_TaskUniversalTemplateSettingEntity.ColumnId": "Ignore",
+      "ExtParamTableSettingEntity.SmartExpressionId_SmartExpressionEntity.Id": "Include",
+      "ExtParamTableSettingEntity.Id_ExtParamSelectUsersValueEntity.ColumnId": "Ignore",
+      "ExtParamTableSettingEntity.Id_ExtParamSelectUsersValuesGroupEntity.ColumnId": "Ignore",
+      "ExtParamTableSettingEntity.Id_ExtParamSelectUsersValuesOrgUnitEntity.ColumnId": "Ignore",
+      "ExtParamTableSettingEntity.LocalizedNameId_LocalizedBusinessObjectEntity.Id": "Include"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.ExtParams.ExtParamTableOptionEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "ExtParamTableOptionEntity.ExtParamTableRowID_ExtParamTableSettingEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.ActionButtonInListEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "ActionButtonInListEntity.PortalBlockId_PortalGridBlockEntity.Id": "Ignore",
+      "ActionButtonInListEntity.ActionsPackId_ActionsPackEntity.Id": "Include",
+      "ActionButtonInListEntity.UrlSmartExpressionId_SmartExpressionEntity.Id": "Ignore",
+      "ActionButtonInListEntity.TaskHierarchyId_TaskHierarchyEntity.Id": "Ignore",
+      "ActionButtonInListEntity.EpTableColumnId_ExtParamTableSettingEntity.Id": "Ignore",
+      "ActionButtonInListEntity.LocalizedNameId_LocalizedBusinessObjectEntity.Id": "Include",
+      "ActionButtonInListEntity.LocalizedDesriptionId_LocalizedBusinessObjectEntity.Id": "Include"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.ExtParams.ExtParamTableSectionEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "ExtParamTableSectionEntity.ExtParamId_ExtParamEntity.Id": "Ignore",
+      "ExtParamTableSectionEntity.LocalizedNameId_LocalizedBusinessObjectEntity.Id": "Include"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.ExtParams.ExtParamTableTemplateEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "ExtParamTableTemplateEntity.Id_ExtParamEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.ExtParams.ExtParamTreeNodeEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "ExtParamTreeNodeEntity.ExtParamID_ExtParamEntity.Id": "Ignore",
+      "ExtParamTreeNodeEntity.ParentNodeID_ExtParamTreeNodeEntity.Id": "Ignore",
+      "ExtParamTreeNodeEntity.Id_ExtParamTreeNodeEntity.ParentNodeID": "Include"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.ExtParams.ExtParamTroughSettingEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "ExtParamTroughSettingEntity.ExtParamId_ExtParamEntity.Id": "Ignore",
+      "ExtParamTroughSettingEntity.TargetExtParamId_ExtParamEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Lookups.LookupParamSettingEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "LookupParamSettingEntity.Id_ExtParamEntity.LookupParamSettingId": "Ignore",
+      "LookupParamSettingEntity.Id_ExtParamTableSettingEntity.LookupParamSettingID": "Ignore",
+      "LookupParamSettingEntity.Id_LookupParamAllowedStateEntity.SettingID": "Merge",
+      "LookupParamSettingEntity.Id_LookupParamSubcategoryEntity.SettingID": "Include",
+      "LookupParamSettingEntity.SmartFilterId_SmartExpressionEntity.Id": "Include",
+      "LookupParamSettingEntity.SubcatId_SubcategoryEntity.Id": "Ignore",
+      "LookupParamSettingEntity.SummaryCategoryId_SummaryCategoryEntity.Id": "Include",
+      "LookupParamSettingEntity.OrderExtParamId_ExtParamEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Lookups.LookupParamAllowedStateEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "LookupParamAllowedStateEntity.SettingID_LookupParamSettingEntity.Id": "Ignore",
+      "LookupParamAllowedStateEntity.StateID_StateEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Lookups.LookupParamSubcategoryEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "LookupParamSubcategoryEntity.SettingID_LookupParamSettingEntity.Id": "Ignore",
+      "LookupParamSubcategoryEntity.SubcatID_SubcategoryEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Subcategories.SummaryCategoryEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "SummaryCategoryEntity.Id_LookupParamSettingEntity.SummaryCategoryId": "Ignore",
+      "SummaryCategoryEntity.Id_SummaryCategoryGroupAccessEntity.SummaryCategoryID": "Include",
+      "SummaryCategoryEntity.Id_SummaryStateEntity.SummaryCategoryID": "Include"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Subcategories.SummaryCategoryGroupAccessEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "SummaryCategoryGroupAccessEntity.GroupId_GroupEntity.Id": "Ignore",
+      "SummaryCategoryGroupAccessEntity.SummaryCategoryID_SummaryCategoryEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Subcategories.SummaryStateEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "SummaryStateEntity.StateID_StateEntity.Id": "Ignore",
+      "SummaryStateEntity.SubcatID_SubcategoryEntity.Id": "Ignore",
+      "SummaryStateEntity.SummaryCategoryID_SummaryCategoryEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.ExtParams.TextEpOptionEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "TextEpOptionEntity.Id_ExtParamEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.ExtParams.ExtParamSelectSettingsEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "ExtParamSelectSettingsEntity.Id_ExtParamEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Smart.SmartAccessForExtParamsInSubcatRuleEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "SmartAccessForExtParamsInSubcatRuleEntity.ExtParamId_ExtParamEntity.Id": "Ignore",
+      "SmartAccessForExtParamsInSubcatRuleEntity.SmartAccessId_SmartAccessEntity.Id": "Include"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Smart.SmartAccessEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "SmartAccessEntity.Id_SmartAccessSubcategoryEntity.SmartAccessId": "Merge",
+      "SmartAccessEntity.Id_SmartAccessTriggerExtParamEntity.SmartAccessId": "Merge",
+      "SmartAccessEntity.Id_SmartAccessTriggerGroupEntity.SmartAccessId": "Merge",
+      "SmartAccessEntity.Id_SmartAccessViewTaskEntity.SmartAccessId": "Ignore",
+      "SmartAccessEntity.UsersSmartExpressionId_SmartExpressionEntity.Id": "Include",
+      "SmartAccessEntity.Id_SmartAccessForExtParamsInSubcatRuleEntity.SmartAccessId": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Smart.SmartAccessSubcategoryEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "SmartAccessSubcategoryEntity.SmartAccessId_SmartAccessEntity.Id": "Ignore",
+      "SmartAccessSubcategoryEntity.SubcatId_SubcategoryEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Smart.SmartAccessTriggerExtParamEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "SmartAccessTriggerExtParamEntity.ExtParamId_ExtParamEntity.Id": "Ignore",
+      "SmartAccessTriggerExtParamEntity.SmartAccessId_SmartAccessEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Smart.SmartAccessTriggerGroupEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "SmartAccessTriggerGroupEntity.GroupId_GroupEntity.Id": "Ignore",
+      "SmartAccessTriggerGroupEntity.SmartAccessId_SmartAccessEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.StepSignExtParamInfoEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "StepSignExtParamInfoEntity.ExtParamId_ExtParamEntity.Id": "Ignore",
+      "StepSignExtParamInfoEntity.StateRouteId_StatesRoutesSignatureEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.ExtParams.ExtParamPermissionEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "ExtParamPermissionEntity.SubcatId+ExtParamId_ExtParamInSubcatEntity.SubcatId+ExtParamId": "Ignore",
+      "ExtParamPermissionEntity.GroupId_GroupEntity.Id": "Include"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Groups.GroupEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "GroupEntity.Id_ApiContainerToGroupEntity.GroupId": "Ignore",
+      "GroupEntity.Id_CustomPagesGroupEntity.Id": "Ignore",
+      "GroupEntity.Id_EditReportAnnotationRightEntity.GroupId": "Ignore",
+      "GroupEntity.Id_SubcategoryAccessEntity.GroupId": "Ignore",
+      "GroupEntity.Id_EqualGroupsForSignatureEntity.AcceptorGroupId": "Ignore",
+      "GroupEntity.Id_EqualGroupsForSignatureEntity.GroupId": "Ignore",
+      "GroupEntity.Id_EqualUsersForSignatureEntity.GroupId": "Ignore",
+      "GroupEntity.Id_ExternalObjectsSpecialRightEntity.GroupId": "Ignore",
+      "GroupEntity.Id_ExternalObjectsViewRightEntity.GroupId": "Ignore",
+      "GroupEntity.Id_ExtParamPermissionEntity.GroupId": "Ignore",
+      "GroupEntity.Id_ExtParamSelectUserSettingEntity.GroupId": "Ignore",
+      "GroupEntity.Id_ExtParamSelectUsersValuesGroupEntity.GroupId": "Ignore",
+      "GroupEntity.Id_ExtParamTableSettingsInSubcatGroupPermissionEntity.GroupId": "Ignore",
+      "GroupEntity.Id_FileStorageFilePermissionEntity.GroupId": "Ignore",
+      "GroupEntity.Id_FileStorageFolderPermissionEntity.GroupId": "Ignore",
+      "GroupEntity.TypeId_GroupTypeEntity.Id": "Include",
+      "GroupEntity.Id_GroupDomainAccessEntity.GroupId": "Ignore",
+      "GroupEntity.Id_GroupOnGroupPermissionEntity.GroupID": "Ignore",
+      "GroupEntity.Id_GroupOnGroupPermissionEntity.OnGroupID": "Ignore",
+      "GroupEntity.Id_CategoryGroupPermissionEntity.GroupId": "Ignore",
+      "GroupEntity.Id_GroupSpecialPermissionEntity.GroupID": "Ignore",
+      "GroupEntity.Id_GroupParentEntity.ChildId": "Ignore",
+      "GroupEntity.Id_GroupParentEntity.ParentId": "Ignore",
+      "GroupEntity.Id_GroupToGroupCalendarVisibilityEntity.GroupID": "Ignore",
+      "GroupEntity.Id_GroupToGroupCalendarVisibilityEntity.VisibleGroupID": "Ignore",
+      "GroupEntity.Id_GroupToGroupEntity.ToGroupID": "Ignore",
+      "GroupEntity.Id_GroupToGroupEntity.FromGroupID": "Ignore",
+      "GroupEntity.Id_GroupTypesPermissionEntity.GroupID": "Ignore",
+      "GroupEntity.Id_GroupUsersMembershipEntity.GroupID": "Ignore",
+      "GroupEntity.Id_LocationMonitoringSettingEntity.MonitoringGroupId": "Ignore",
+      "GroupEntity.Id_LocationMonitoringSettingEntity.SupervisionGroupId": "Ignore",
+      "GroupEntity.Id_MailSubscribersGroupEntity.GroupID": "Ignore",
+      "GroupEntity.Id_MenuItemTickerGroupEntity.GroupID": "Ignore",
+      "GroupEntity.Id_OrgStructureUnitEntity.LinkedGroupId": "Ignore",
+      "GroupEntity.Id_PortalGridBlockGroupEntity.GroupId": "Ignore",
+      "GroupEntity.Id_PortalGridTemplateGroupEntity.GroupId": "Ignore",
+      "GroupEntity.Id_RoleUserEntity.GroupId": "Ignore",
+      "GroupEntity.Id_GroupPermissionEntity.GroupId": "Ignore",
+      "GroupEntity.Id_SettingEntity.GodGroupID": "Ignore",
+      "GroupEntity.Id_SettingEntity.NewUserGroupID": "Ignore",
+      "GroupEntity.Id_SettingEntity.ShowHelpIconGroupID": "Ignore",
+      "GroupEntity.Id_SettingEntity.UsersGroupId": "Ignore",
+      "GroupEntity.Id_SMSProvidersForGroupEntity.GroupID": "Ignore",
+      "GroupEntity.Id_StartPageBlocksVisibilityEntity.GroupID": "Ignore",
+      "GroupEntity.Id_StepSubTaskEntity.PerformersFromGroupID": "Ignore",
+      "GroupEntity.Id_SubcategoryEntity.ResponsibleGroupID": "Ignore",
+      "GroupEntity.Id_SubcategoryEntity.GroupToInformOnPlanTimeOverdueID": "Ignore",
+      "GroupEntity.Id_SummaryCategoryGroupAccessEntity.GroupId": "Ignore",
+      "GroupEntity.Id_TagActionEntity.GroupID": "Ignore",
+      "GroupEntity.Id_TagTypePermissionEntity.GroupID": "Ignore",
+      "GroupEntity.Id_UserFavsFolderEntity.GroupId": "Ignore",
+      "GroupEntity.Id_UserGroupEntity.GroupId": "Ignore",
+      "GroupEntity.Id_UserGroupsActualEntity.GroupID": "Ignore",
+      "GroupEntity.Id_UserLinkEntity.GroupId": "Ignore",
+      "GroupEntity.Id_WareHousePermissionEntity.GroupID": "Ignore",
+      "GroupEntity.Id_UserGroupSettingEntity.GroupId": "Ignore",
+      "GroupEntity.Id_SubcatPlanningEstimateResponsibleEntity.GroupId": "Ignore",
+      "GroupEntity.Id_SubcatPlanningCoordinatingResponsibleEntity.GroupId": "Ignore",
+      "GroupEntity.Id_GroupSubcatNotificatonEntity.GroupId": "Ignore",
+      "GroupEntity.Id_WorkGroupsInFavoriteOrderEntity.GroupId": "Merge",
+      "GroupEntity.Id_EdsUserGroupsSettingEntity.Id": "Ignore",
+      "GroupEntity.Id_SmartAccessForExtParamInSubcatTriggerGroupEntity.GroupId": "Ignore",
+      "GroupEntity.Id_SmartAccessTriggerGroupEntity.GroupId": "Ignore",
+      "GroupEntity.Id_SubcatUserNotificationEntity.GroupId": "Ignore",
+      "GroupEntity.Id_AuthenticationProviderGroupEntity.GroupId": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Groups.GroupTypeEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "GroupTypeEntity.Id_GroupEntity.TypeId": "Ignore",
+      "GroupTypeEntity.Id_GroupTypesPermissionEntity.GroupTypeID": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Favorites.WorkGroupsInFavoriteOrderEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "WorkGroupsInFavoriteOrderEntity.GroupId_GroupEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.ExtParams.ExtParamsInSubcatValidatorEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "ExtParamsInSubcatValidatorEntity.Id_ExtParamInSubcatEntity.ValidatorId": "Ignore",
+      "ExtParamsInSubcatValidatorEntity.Id_ExtParamsInSubcatValidatorCustomButtonEntity.ValidatorId": "Ignore",
+      "ExtParamsInSubcatValidatorEntity.Id_ExtParamsInSubcatValidatorStepEntity.ValidatorId": "Ignore",
+      "ExtParamsInSubcatValidatorEntity.SmartExpressionId_SmartExpressionEntity.Id": "Include"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.ExtParams.ExtParamTableSettingsInSubcatEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "ExtParamTableSettingsInSubcatEntity.ColumnId_ExtParamTableSettingEntity.Id": "Ignore",
+      "ExtParamTableSettingsInSubcatEntity.ExtParamId_ExtParamEntity.Id": "Ignore",
+      "ExtParamTableSettingsInSubcatEntity.ExtParamInSubcatId_ExtParamInSubcatEntity.Id": "Ignore",
+      "ExtParamTableSettingsInSubcatEntity.SubcatId_SubcategoryEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.ExtParams.ExtParamTableSettingsInSubcatGroupPermissionEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "ExtParamTableSettingsInSubcatGroupPermissionEntity.ColumnId_ExtParamTableSettingEntity.Id": "Ignore",
+      "ExtParamTableSettingsInSubcatGroupPermissionEntity.ExtParamId_ExtParamEntity.Id": "Ignore",
+      "ExtParamTableSettingsInSubcatGroupPermissionEntity.ExtParamInSubcatId_ExtParamInSubcatEntity.Id": "Ignore",
+      "ExtParamTableSettingsInSubcatGroupPermissionEntity.GroupId_GroupEntity.Id": "Ignore",
+      "ExtParamTableSettingsInSubcatGroupPermissionEntity.SubcatId_SubcategoryEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.ExtParams.ExtParamTableSettingsInSubcatStatePermissionEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "ExtParamTableSettingsInSubcatStatePermissionEntity.ColumnId_ExtParamTableSettingEntity.Id": "Ignore",
+      "ExtParamTableSettingsInSubcatStatePermissionEntity.ExtParamId_ExtParamEntity.Id": "Ignore",
+      "ExtParamTableSettingsInSubcatStatePermissionEntity.ExtParamInSubcatId_ExtParamInSubcatEntity.Id": "Ignore",
+      "ExtParamTableSettingsInSubcatStatePermissionEntity.StateId_StateEntity.Id": "Ignore",
+      "ExtParamTableSettingsInSubcatStatePermissionEntity.SubcatId_SubcategoryEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.ExtParams.ExtParamStateViewEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "ExtParamStateViewEntity.ExtParamID_ExtParamEntity.Id": "Ignore",
+      "ExtParamStateViewEntity.StateID_StateEntity.Id": "Ignore",
+      "ExtParamStateViewEntity.SubcatID_SubcategoryEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.ReplacerEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "ReplacerEntity.SmartIdBasicText_SmartExpressionEntity.Id": "Ignore",
+      "ReplacerEntity.SmartIdFinalText_SmartExpressionEntity.Id": "Ignore",
+      "ReplacerEntity.Id_SubcategoryEntity.CommentReplacerId": "Ignore",
+      "ReplacerEntity.Id_SubcategoryEntity.TaskTextReplacerId": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.SubcatStateHintEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "SubcatStateHintEntity.StateId_StateEntity.Id": "Ignore",
+      "SubcatStateHintEntity.SubcatId_SubcategoryEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Groups.GroupPermissionEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "GroupPermissionEntity.ActionId_ActionEntity.Id": "Ignore",
+      "GroupPermissionEntity.GroupId_GroupEntity.Id": "Include",
+      "GroupPermissionEntity.SubcatId_SubcategoryEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Mail.MailFromTaskTemplateEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "MailFromTaskTemplateEntity.SubcatID_SubcategoryEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Smart.SmartQueryEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "SmartQueryEntity.XAxisExpressionId_SmartExpressionEntity.Id": "Include",
+      "SmartQueryEntity.YAxisExpressionId_SmartExpressionEntity.Id": "Include",
+      "SmartQueryEntity.SmartFilterId_SmartExpressionEntity.Id": "Include",
+      "SmartQueryEntity.SubcatId_SubcategoryEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Smart.SmartRecurrenceEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "SmartRecurrenceEntity.ActionsPackId_ActionsPackEntity.Id": "Include",
+      "SmartRecurrenceEntity.RecurrenceInfoId_RecurrenceInfoEntity.Id": "Include",
+      "SmartRecurrenceEntity.SmartFilterId_SmartExpressionEntity.Id": "Include",
+      "SmartRecurrenceEntity.SubcatId_SubcategoryEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.RecurrenceInfoEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "RecurrenceInfoEntity.Id_DataImportRecurrenceEntity.RecurrenceId": "Ignore",
+      "RecurrenceInfoEntity.Id_JobRecurrenceEntity.RecurrenceInfoID": "Ignore",
+      "RecurrenceInfoEntity.Id_SmartRecurrenceEntity.RecurrenceInfoId": "Ignore",
+      "RecurrenceInfoEntity.Id_TaskRecurrenceEntity.RecurrenceInfoId": "Ignore",
+      "RecurrenceInfoEntity.Id_AppointmentEntity.RecurrenceId": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Subcategories.StatesRoutesInSubcatEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "StatesRoutesInSubcatEntity.TaskEntityPermissionSetID_TaskPermissionSetEntity.Id": "Include",
+      "StatesRoutesInSubcatEntity.ActionID_ActionEntity.Id": "Ignore",
+      "StatesRoutesInSubcatEntity.AutoPerformerSourceExtParamID_ExtParamEntity.Id": "Ignore",
+      "StatesRoutesInSubcatEntity.Id_ExtParamsInSubcatValidatorStepEntity.StepId": "Include",
+      "StatesRoutesInSubcatEntity.TermDateSourceExtParamID_ExtParamEntity.Id": "Ignore",
+      "StatesRoutesInSubcatEntity.StateID_StateEntity.Id": "Include",
+      "StatesRoutesInSubcatEntity.OnOverduePerformStepID_StatesRoutesInSubcatEntity.Id": "Ignore",
+      "StatesRoutesInSubcatEntity.Id_StatesRoutesInSubcatEntity.OnOverduePerformStepID": "Ignore",
+      "StatesRoutesInSubcatEntity.VisibilitySmartFilterID_SmartExpressionEntity.Id": "Ignore",
+      "StatesRoutesInSubcatEntity.StateNextID_StateEntity.Id": "Include",
+      "StatesRoutesInSubcatEntity.Id_StatesRoutesSignatureEntity.StepId": "Merge",
+      "StatesRoutesInSubcatEntity.Id_StatesRoutesSignaturesServiceEntity.Id": "Merge",
+      "StatesRoutesInSubcatEntity.Id_StatesRoutesSignaturesSqlServiceSettingEntity.Id": "Merge",
+      "StatesRoutesInSubcatEntity.Id_StatesRoutesSignaturesStepsOnRejectEntity.StepId": "Ignore",
+      "StatesRoutesInSubcatEntity.Id_StepLogEntity.StepId": "Ignore",
+      "StatesRoutesInSubcatEntity.Id_StepSubTaskEntity.StepId": "Include",
+      "StatesRoutesInSubcatEntity.SubcatID_SubcategoryEntity.Id": "Ignore",
+      "StatesRoutesInSubcatEntity.Id_TaskEntity.StepId": "Ignore",
+      "StatesRoutesInSubcatEntity.Id_TaskSignaturesQueueEntity.StepID": "Ignore",
+      "StatesRoutesInSubcatEntity.Id_StepExtParamRestrictionEntity.StepId": "Merge",
+      "StatesRoutesInSubcatEntity.RedirectUrlAfterStepSmartExpressionID_SmartExpressionEntity.Id": "Include",
+      "StatesRoutesInSubcatEntity.LocalizedStepDescrId_LocalizedBusinessObjectEntity.Id": "Include",
+      "StatesRoutesInSubcatEntity.LocalizedStepTooltipId_LocalizedBusinessObjectEntity.Id": "Include",
+      "StatesRoutesInSubcatEntity.LocalizedStepOwnerTooltipId_LocalizedBusinessObjectEntity.Id": "Include",
+      "StatesRoutesInSubcatEntity.LocalizedStepUserTooltipId_LocalizedBusinessObjectEntity.Id": "Include",
+      "StatesRoutesInSubcatEntity.LocalizedConfirmTextId_LocalizedBusinessObjectEntity.Id": "Include"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.ExtParams.ExtParamsInSubcatValidatorStepEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "ExtParamsInSubcatValidatorStepEntity.ValidatorId_ExtParamsInSubcatValidatorEntity.Id": "Ignore",
+      "ExtParamsInSubcatValidatorStepEntity.StepId_StatesRoutesInSubcatEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Subcategories.StateEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "StateEntity.CustomerID_CustomerEntity.Id": "Ignore",
+      "StateEntity.Id_ExtParamNumeratorSubcatStepEntity.StateId": "Ignore",
+      "StateEntity.Id_ExtParamStateViewEntity.StateID": "Ignore",
+      "StateEntity.Id_ExtParamTableSettingsInSubcatStatePermissionEntity.StateId": "Ignore",
+      "StateEntity.Id_SubcatStateHintEntity.StateId": "Ignore",
+      "StateEntity.Id_LookupParamAllowedStateEntity.StateID": "Ignore",
+      "StateEntity.Id_OverdueReportIgnoringStateEntity.StateID": "Ignore",
+      "StateEntity.Id_SettingEntity.NewStateId": "Ignore",
+      "StateEntity.Id_SettingEntity.RejectedStateId": "Ignore",
+      "StateEntity.Id_SettingEntity.ActiveStateId": "Ignore",
+      "StateEntity.Id_SettingEntity.DoneStateId": "Ignore",
+      "StateEntity.Id_StatesRoutesInSubcatEntity.StateID": "Ignore",
+      "StateEntity.Id_StatesRoutesInSubcatEntity.StateNextID": "Ignore",
+      "StateEntity.Id_StatesRoutesSignatureEntity.ReturnIfNotSignedStateId": "Ignore",
+      "StateEntity.Id_SummaryStateEntity.StateID": "Ignore",
+      "StateEntity.Id_TaskFormCustomButtonStateEntity.StateId": "Ignore",
+      "StateEntity.Id_TaskOrderedDateAuditEntity.StateId": "Ignore",
+      "StateEntity.Id_TaskEntity.StateId": "Ignore",
+      "StateEntity.Id_StepLogEntity.PreviousStateId": "Ignore",
+      "StateEntity.Id_StepLogEntity.NewStateId": "Ignore",
+      "StateEntity.LocalizedNameId_LocalizedBusinessObjectEntity.Id": "Include",
+      "StateEntity.LocalizedForMailId_LocalizedBusinessObjectEntity.Id": "Include",
+      "StateEntity.LocalizedForMailCustomerId_LocalizedBusinessObjectEntity.Id": "Include",
+      "StateEntity.LocalizedCommentOnAttainmentId_LocalizedBusinessObjectEntity.Id": "Include",
+      "StateEntity.LocalizedParentCommentId_LocalizedBusinessObjectEntity.Id": "Include",
+      "StateEntity.ModuleId_ModuleEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Signatures.StatesRoutesSignatureEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "StatesRoutesSignatureEntity.TimeToSignSmartId_SmartExpressionEntity.Id": "Include",
+      "StatesRoutesSignatureEntity.ReturnIfNotSignedStateId_StateEntity.Id": "Ignore",
+      "StatesRoutesSignatureEntity.SignatureId_SignatureEntity.Id": "Include",
+      "StatesRoutesSignatureEntity.ReasonSmartId_SmartExpressionEntity.Id": "Include",
+      "StatesRoutesSignatureEntity.StepId_StatesRoutesInSubcatEntity.Id": "Ignore",
+      "StatesRoutesSignatureEntity.Id_StatesRoutesSignaturesConditionEntity.StepSignID": "Include",
+      "StatesRoutesSignatureEntity.Id_StatesRoutesSignaturesStepsOnRejectEntity.StepSignatureId": "Include",
+      "StatesRoutesSignatureEntity.SmartFilterId_SmartExpressionEntity.Id": "Include",
+      "StatesRoutesSignatureEntity.Id_StepSignExtParamRestrictionEntity.StateRouteId": "Ignore",
+      "StatesRoutesSignatureEntity.Id_EdsStatesRoutesSignaturesEntity.StepSignId": "Merge",
+      "StatesRoutesSignatureEntity.Id_StepSignExtParamInfoEntity.StateRouteId": "Merge",
+      "StatesRoutesSignatureEntity.LocalizedReasonId_LocalizedBusinessObjectEntity.Id": "Include"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Signatures.SignatureEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "SignatureEntity.CustomerId_CustomerEntity.Id": "Ignore",
+      "SignatureEntity.Id_EqualGroupsForSignatureEntity.SignatureId": "Include",
+      "SignatureEntity.Id_EqualUsersForSignatureEntity.SignatureId": "Include",
+      "SignatureEntity.ExtParamId_ExtParamEntity.Id": "Ignore",
+      "SignatureEntity.DirectorSignatureId_SignatureEntity.Id": "Include",
+      "SignatureEntity.Id_SignatureEntity.DirectorSignatureId": "Ignore",
+      "SignatureEntity.Id_SettingEntity.RMAcceptPerformersSignatureId": "Ignore",
+      "SignatureEntity.Id_SettingEntity.RMAcceptResourcesSignatureId": "Ignore",
+      "SignatureEntity.Id_SignatureAcceptorsByDirectorEntity.Id": "Ignore",
+      "SignatureEntity.Id_SignatureAcceptorsByExtParamDefaultEntity.SignatureID": "Ignore",
+      "SignatureEntity.Id_SignatureAcceptorsByExtParamValueEntity.SignatureID": "Ignore",
+      "SignatureEntity.Id_SignatureAcceptorsByOrgStructureTypeEntity.Id": "Include",
+      "SignatureEntity.Id_SignatureResolutionTypesSignatureEntity.SignatureID": "Include",
+      "SignatureEntity.Id_StatesRoutesSignatureEntity.SignatureId": "Ignore",
+      "SignatureEntity.Id_SubcategoryEntity.ChangeDueConfirmSignatureId": "Ignore",
+      "SignatureEntity.Id_SubcategoryEntity.DelegateTaskConfirmSignatureId": "Ignore",
+      "SignatureEntity.Id_SubcategoryEntity.TaskOwnerChangeConfirmSignatureId": "Ignore",
+      "SignatureEntity.Id_TaskSignatureEntity.SignatureID": "Ignore",
+      "SignatureEntity.Id_TaskSignaturesQueueEntity.SignatureID": "Ignore",
+      "SignatureEntity.SmartExpressionId_SmartExpressionEntity.Id": "Include",
+      "SignatureEntity.BaseUserSmartId_SmartExpressionEntity.Id": "Include",
+      "SignatureEntity.LocalizedDescriptionId_LocalizedBusinessObjectEntity.Id": "Include",
+      "SignatureEntity.ModuleId_ModuleEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.EqualGroupsForSignatureEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "EqualGroupsForSignatureEntity.AcceptorGroupId_GroupEntity.Id": "Ignore",
+      "EqualGroupsForSignatureEntity.GroupId_GroupEntity.Id": "Ignore",
+      "EqualGroupsForSignatureEntity.SignatureId_SignatureEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.EqualUsersForSignatureEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "EqualUsersForSignatureEntity.GroupId_GroupEntity.Id": "Ignore",
+      "EqualUsersForSignatureEntity.SignatureId_SignatureEntity.Id": "Ignore",
+      "EqualUsersForSignatureEntity.UserId_UserEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Signatures.SignatureAcceptorsByOrgStructureTypeEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "SignatureAcceptorsByOrgStructureTypeEntity.Id_SignatureEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Signatures.SignatureResolutionTypesSignatureEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "SignatureResolutionTypesSignatureEntity.SignatureID_SignatureEntity.Id": "Ignore",
+      "SignatureResolutionTypesSignatureEntity.SignatureResolutionTypeID_SignatureResolutionTypeEntity.Id": "Include"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Signatures.SignatureResolutionTypeEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "SignatureResolutionTypeEntity.Id_SignatureResolutionTypesSignatureEntity.SignatureResolutionTypeID": "Ignore",
+      "SignatureResolutionTypeEntity.Id_TaskSignatureEntity.SignatureResolutionTypeId": "Ignore",
+      "SignatureResolutionTypeEntity.LocalizedNameId_LocalizedBusinessObjectEntity.Id": "Include"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Signatures.StatesRoutesSignaturesConditionEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "StatesRoutesSignaturesConditionEntity.ExtParamID_ExtParamEntity.Id": "Ignore",
+      "StatesRoutesSignaturesConditionEntity.StepSignID_StatesRoutesSignatureEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Signatures.StatesRoutesSignaturesStepsOnRejectEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "StatesRoutesSignaturesStepsOnRejectEntity.StepId_StatesRoutesInSubcatEntity.Id": "Ignore",
+      "StatesRoutesSignaturesStepsOnRejectEntity.StepSignatureId_StatesRoutesSignatureEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Signatures.StatesRoutesSignaturesServiceEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "StatesRoutesSignaturesServiceEntity.Id_StatesRoutesInSubcatEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Signatures.StatesRoutesSignaturesSqlServiceSettingEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "StatesRoutesSignaturesSqlServiceSettingEntity.Id_StatesRoutesInSubcatEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.StepSubTaskEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "StepSubTaskEntity.PerformersFromGroupID_GroupEntity.Id": "Ignore",
+      "StepSubTaskEntity.CustomerRoleToAssignID_RoleEntity.Id": "Ignore",
+      "StepSubTaskEntity.StepId_StatesRoutesInSubcatEntity.Id": "Ignore",
+      "StepSubTaskEntity.Id_StepSubtaskExtparamConditionEntity.StepSubtaskID": "Include",
+      "StepSubTaskEntity.Id_StepSubtaskExtParamEntity.StepSubtaskID": "Include",
+      "StepSubTaskEntity.SubcatId_SubcategoryEntity.Id": "Ignore",
+      "StepSubTaskEntity.SmartFilterID_SmartExpressionEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.StepSubtaskExtparamConditionEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "StepSubtaskExtparamConditionEntity.ExtParamID_ExtParamEntity.Id": "Ignore",
+      "StepSubtaskExtparamConditionEntity.StepSubtaskID_StepSubTaskEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.StepSubtaskExtParamEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "StepSubtaskExtParamEntity.ExtParamID_ExtParamEntity.Id": "Ignore",
+      "StepSubtaskExtParamEntity.ParentExtParamID_ExtParamEntity.Id": "Ignore",
+      "StepSubtaskExtParamEntity.StepSubtaskID_StepSubTaskEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.StepExtParamRestrictionEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "StepExtParamRestrictionEntity.ExtParamId_ExtParamEntity.Id": "Ignore",
+      "StepExtParamRestrictionEntity.StepId_StatesRoutesInSubcatEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.SubcategoriesHierarhy1CExtparamsInGridEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "SubcategoriesHierarhy1CExtparamsInGridEntity.ExtParamId_ExtParamEntity.Id": "Ignore",
+      "SubcategoriesHierarhy1CExtparamsInGridEntity.SubcatId_SubcategoryEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.SubcategoriesHierarhy1CSettingEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "SubcategoriesHierarhy1CSettingEntity.FolderExtParamId_ExtParamEntity.Id": "Ignore",
+      "SubcategoriesHierarhy1CSettingEntity.ParentExtParamId_ExtParamEntity.Id": "Ignore",
+      "SubcategoriesHierarhy1CSettingEntity.Id_SubcategoryEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.SubcategoriesIncludeEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "SubcategoriesIncludeEntity.IncludeId_IncludeEntity.Id": "Include",
+      "SubcategoriesIncludeEntity.SubcatId_SubcategoryEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.IncludeEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "IncludeEntity.Id_SubcategoriesIncludeEntity.IncludeId": "Ignore",
+      "IncludeEntity.Id_GeneralIncludeEntity.IncludeId": "Ignore",
+      "IncludeEntity.Id_PortalIncludeEntity.IncludeId": "Ignore",
+      "IncludeEntity.Id_PortalBlockIncludesEntity.IncludeId": "Ignore",
+      "IncludeEntity.Id_SettingEntity.CalendarJsIncludeId": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Includes.GeneralIncludeCategoriesEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "GeneralIncludeCategoriesEntity.GeneralIncludeId_GeneralIncludeEntity.Id": "Include",
+      "GeneralIncludeCategoriesEntity.SubcatId_SubcategoryEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Includes.GeneralIncludeEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "GeneralIncludeEntity.Id_GeneralIncludeCategoriesEntity.GeneralIncludeId": "Ignore",
+      "GeneralIncludeEntity.IncludeId_IncludeEntity.Id": "Include"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Subcategories.SubcategoryTemplateEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "SubcategoryTemplateEntity.VisibilitySmartId_SmartExpressionEntity.Id": "Include",
+      "SubcategoryTemplateEntity.Id_SubcategoryEntity.MainTaskFormTemplateID": "Ignore",
+      "SubcategoryTemplateEntity.Id_SubcategoryEntity.NewTaskFormTemplateID": "Ignore",
+      "SubcategoryTemplateEntity.Id_SubcategoryTemplateEntity.ParentTemplateId": "Ignore",
+      "SubcategoryTemplateEntity.SubcatId_SubcategoryEntity.Id": "Ignore",
+      "SubcategoryTemplateEntity.ParentTemplateId_SubcategoryTemplateEntity.Id": "Ignore",
+      "SubcategoryTemplateEntity.LanguageId_LanguageEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.SubcatIncludeEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "SubcatIncludeEntity.SubcatID_SubcategoryEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.SubcatMeetingSettingEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "SubcatMeetingSettingEntity.ParticipantsExtParamID_ExtParamEntity.Id": "Ignore",
+      "SubcatMeetingSettingEntity.TypeExtParamID_ExtParamEntity.Id": "Ignore",
+      "SubcatMeetingSettingEntity.PlaceExtParamID_ExtParamEntity.Id": "Ignore",
+      "SubcatMeetingSettingEntity.HelperExtParamID_ExtParamEntity.Id": "Ignore",
+      "SubcatMeetingSettingEntity.TopicExtParamID_ExtParamEntity.Id": "Ignore",
+      "SubcatMeetingSettingEntity.ResultsExtParamID_ExtParamEntity.Id": "Ignore",
+      "SubcatMeetingSettingEntity.SubcatID_SubcategoryEntity.Id": "Ignore",
+      "SubcatMeetingSettingEntity.TasksDefaultSubcatID_SubcategoryEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.SubcatNoteEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "SubcatNoteEntity.SubcatId_SubcategoryEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.SubcatPlanningCoordinatingResponsibleEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "SubcatPlanningCoordinatingResponsibleEntity.SubcatId_SubcategoryEntity.Id": "Ignore",
+      "SubcatPlanningCoordinatingResponsibleEntity.UserId_UserEntity.Id": "Ignore",
+      "SubcatPlanningCoordinatingResponsibleEntity.GroupId_GroupEntity.Id": "Include"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.SubcatPlanningEstimateResponsibleEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "SubcatPlanningEstimateResponsibleEntity.SubcatId_SubcategoryEntity.Id": "Ignore",
+      "SubcatPlanningEstimateResponsibleEntity.UserId_UserEntity.Id": "Ignore",
+      "SubcatPlanningEstimateResponsibleEntity.GroupId_GroupEntity.Id": "Include"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Tasks.TaskFormCustomButtonEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "TaskFormCustomButtonEntity.TaskEntityPermissionSetID_TaskPermissionSetEntity.Id": "Include",
+      "TaskFormCustomButtonEntity.Id_ExtParamsInSubcatValidatorCustomButtonEntity.ButtonId": "Include",
+      "TaskFormCustomButtonEntity.ActionsPackId_ActionsPackEntity.Id": "Include",
+      "TaskFormCustomButtonEntity.DisabledReasonSmartExpressionId_SmartExpressionEntity.Id": "Include",
+      "TaskFormCustomButtonEntity.SubcatId_SubcategoryEntity.Id": "Ignore",
+      "TaskFormCustomButtonEntity.UrlSmartExpressionId_SmartExpressionEntity.Id": "Include",
+      "TaskFormCustomButtonEntity.VisibilitySmartFilterId_SmartExpressionEntity.Id": "Include",
+      "TaskFormCustomButtonEntity.MakeSubtaskSmartExpressionId_SmartExpressionEntity.Id": "Include",
+      "TaskFormCustomButtonEntity.MakeLinkedSmartExpressionId_SmartExpressionEntity.Id": "Include",
+      "TaskFormCustomButtonEntity.Id_TaskFormCustomButtonStateEntity.CustomButtonId": "Include",
+      "TaskFormCustomButtonEntity.LocalizedNameId_LocalizedBusinessObjectEntity.Id": "Include",
+      "TaskFormCustomButtonEntity.LocalizedMemoId_LocalizedBusinessObjectEntity.Id": "Include",
+      "TaskFormCustomButtonEntity.UrlSubcategoryId_SubcategoryEntity.Id": "Ignore",
+      "TaskFormCustomButtonEntity.UrlNewTaskSubcategoryId_SubcategoryEntity.Id": "Ignore",
+      "TaskFormCustomButtonEntity.UrlCategoryId_CategoryEntity.Id": "Ignore",
+      "TaskFormCustomButtonEntity.UrlNewTaskTaskId_TaskEntity.Id": "Ignore",
+      "TaskFormCustomButtonEntity.UrlTaskFormTaskId_TaskEntity.Id": "Ignore",
+      "TaskFormCustomButtonEntity.UrlTaskDataSourceId_TaskDataSourceEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.ExtParams.ExtParamsInSubcatValidatorCustomButtonEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "ExtParamsInSubcatValidatorCustomButtonEntity.ValidatorId_ExtParamsInSubcatValidatorEntity.Id": "Ignore",
+      "ExtParamsInSubcatValidatorCustomButtonEntity.ButtonId_TaskFormCustomButtonEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Tasks.TaskFormCustomButtonStateEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "TaskFormCustomButtonStateEntity.CustomButtonId_TaskFormCustomButtonEntity.Id": "Ignore",
+      "TaskFormCustomButtonStateEntity.StateId_StateEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.UniversalTemplate.TaskUniversalTemplateMatrixEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "TaskUniversalTemplateMatrixEntity.SmartFilterId_SmartExpressionEntity.Id": "Ignore",
+      "TaskUniversalTemplateMatrixEntity.SubcatId_SubcategoryEntity.Id": "Ignore",
+      "TaskUniversalTemplateMatrixEntity.TemplateId_TaskUniversalTemplateEntity.Id": "Ignore",
+      "TaskUniversalTemplateMatrixEntity.Id_TaskUniversalTemplateSettingEntity.MatrixId": "Merge"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.UniversalTemplate.TaskUniversalTemplateSettingEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "TaskUniversalTemplateSettingEntity.MatrixId_TaskUniversalTemplateMatrixEntity.Id": "Ignore",
+      "TaskUniversalTemplateSettingEntity.ExtParamId_ExtParamEntity.Id": "Ignore",
+      "TaskUniversalTemplateSettingEntity.ColumnId_ExtParamTableSettingEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Smart.SmartAccessForExtParamInSubcatEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "SmartAccessForExtParamInSubcatEntity.Id_SmartAccessForExtParamInSubcatTriggerExtParamEntity.SmartAccessId": "Merge",
+      "SmartAccessForExtParamInSubcatEntity.Id_SmartAccessForExtParamInSubcatTriggerGroupEntity.SmartAccessId": "Merge",
+      "SmartAccessForExtParamInSubcatEntity.Id_SmartAccessForExtParamInSubcatViewEntity.SmartAccessId": "Ignore",
+      "SmartAccessForExtParamInSubcatEntity.SubcatId_SubcategoryEntity.Id": "Ignore",
+      "SmartAccessForExtParamInSubcatEntity.UsersSmartExpressionId_SmartExpressionEntity.Id": "Include",
+      "SmartAccessForExtParamInSubcatEntity.SubcatId_ExtParamInSubcatEntity.SubcatId": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Smart.SmartAccessForExtParamInSubcatTriggerExtParamEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "SmartAccessForExtParamInSubcatTriggerExtParamEntity.SmartAccessId_SmartAccessForExtParamInSubcatEntity.Id": "Ignore",
+      "SmartAccessForExtParamInSubcatTriggerExtParamEntity.ExtParamId_ExtParamEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Smart.SmartAccessForExtParamInSubcatTriggerGroupEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "SmartAccessForExtParamInSubcatTriggerGroupEntity.SmartAccessId_SmartAccessForExtParamInSubcatEntity.Id": "Ignore",
+      "SmartAccessForExtParamInSubcatTriggerGroupEntity.GroupId_GroupEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Groups.GroupSubcatNotificatonEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "GroupSubcatNotificatonEntity.SubcatId_SubcategoryEntity.Id": "Ignore",
+      "GroupSubcatNotificatonEntity.GroupId_GroupEntity.Id": "Include"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.DataSources.DataSourceEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "DataSourceEntity.Id_DataSourceSettingsEntity.DataSourceId": "Merge",
+      "DataSourceEntity.Id_SubcategoryEntity.DataSourceId": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.DataSources.DataSourceSettingsEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "DataSourceSettingsEntity.DataSourceId_DataSourceEntity.Id": "Ignore",
+      "DataSourceSettingsEntity.UserId_UserEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.ActionLogEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "ActionLogEntity.SubcatID_SubcategoryEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.ModuleEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "ModuleEntity.Id_SubcategoryEntity.ModuleId": "Merge",
+      "ModuleEntity.Id_CategoryEntity.ModuleId": "Merge",
+      "ModuleEntity.Id_ExtParamEntity.ModuleId": "Include",
+      "ModuleEntity.Id_ActionsPackEntity.ModuleId": "Merge",
+      "ModuleEntity.Id_SmartExpressionEntity.ModuleId": "Merge",
+      "ModuleEntity.Id_SmartScriptEntity.ModuleId": "Merge",
+      "ModuleEntity.Id_SignatureEntity.ModuleId": "Merge",
+      "ModuleEntity.Id_StateEntity.ModuleId": "Merge",
+      "ModuleEntity.Id_VersionConfigEntity.ModuleId": "Include"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.RevisionRepository.VersionConfigEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "VersionConfigEntity.ModuleId_ModuleEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.ReportEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "ReportEntity.Id_ReportContextObjectEntity.ReportId": "Include",
+      "ReportEntity.ExternalObjectId_ExternalObjectEntity.Guid": "Include",
+      "ReportEntity.UserID_UserEntity.Id": "Ignore",
+      "ReportEntity.Id_ReportFilterLinkEntity.ReportId": "Merge"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Report.ReportContextObjectEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "ReportContextObjectEntity.ReportId_ReportEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.ExternalObjects.ExternalObjectEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "ExternalObjectEntity.Guid_EditReportAnnotationRightEntity.ReportExternalObjectId": "Ignore",
+      "ExternalObjectEntity.Guid_ExternalObjectsSpecialRightEntity.ExternalObjectId": "Merge",
+      "ExternalObjectEntity.Guid_ExternalObjectsSmartExpressionRightEntity.Guid": "Merge",
+      "ExternalObjectEntity.Guid_ExternalObjectsViewRightEntity.ExternalObjectId": "Merge",
+      "ExternalObjectEntity.Guid_PublicViewEntity.ExternalObjectID": "Ignore",
+      "ExternalObjectEntity.Guid_SchedulerSettingEntity.ExternalObjectId": "Ignore",
+      "ExternalObjectEntity.Guid_ReportEntity.ExternalObjectId": "Ignore",
+      "ExternalObjectEntity.Guid_TaskHierarchyEntity.ExternalObjectId": "Ignore",
+      "ExternalObjectEntity.Guid_PublicationEntity.ExternalObjectId": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.ExternalObjects.ExternalObjectsSpecialRightEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "ExternalObjectsSpecialRightEntity.ExternalObjectId_ExternalObjectEntity.Guid": "Ignore",
+      "ExternalObjectsSpecialRightEntity.GroupId_GroupEntity.Id": "Include"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.ExternalObjects.ExternalObjectsSmartExpressionRightEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "ExternalObjectsSmartExpressionRightEntity.Guid_ExternalObjectEntity.Guid": "Ignore",
+      "ExternalObjectsSmartExpressionRightEntity.SmartExpressionId_SmartExpressionEntity.Id": "Include"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.ExternalObjects.ExternalObjectsViewRightEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "ExternalObjectsViewRightEntity.ExternalObjectId_ExternalObjectEntity.Guid": "Ignore",
+      "ExternalObjectsViewRightEntity.GroupId_GroupEntity.Id": "Include"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Portal.ReportFilterLinkEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "ReportFilterLinkEntity.ReportId_ReportEntity.Id": "Ignore",
+      "ReportFilterLinkEntity.FilterId_FilterEntity.Id": "Include"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.FilterEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "FilterEntity.Id_FilterLinkToObjectEntity.FilterId": "Ignore",
+      "FilterEntity.Id_FilterParamEntity.FilterId": "Merge",
+      "FilterEntity.Id_PortalGridBlocksFilterEntity.PortalGridFilterId": "Ignore",
+      "FilterEntity.Id_ReportFilterLinkEntity.FilterId": "Ignore",
+      "FilterEntity.Id_PortalGridFilterParamEntity.FilterId": "Ignore",
+      "FilterEntity.Id_FilterParamsDependencyEntity.FilterParamId": "Ignore",
+      "FilterEntity.Id_FilterParamsDependencyEntity.DependOnFilterParamId": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.FilterParamEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "FilterParamEntity.FilterId_FilterEntity.Id": "Ignore",
+      "FilterParamEntity.Id_FilterParamCustomValueEntity.ParamId": "Ignore",
+      "FilterParamEntity.SmartExpressionId_SmartExpressionEntity.Id": "Include",
+      "FilterParamEntity.DefaultValueSmartExpressionId_SmartExpressionEntity.Id": "Include",
+      "FilterParamEntity.LocalizedTitleId_LocalizedBusinessObjectEntity.Id": "Include"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.UniversalTemplate.TaskUniversalTemplateEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "TaskUniversalTemplateEntity.SubcatId_SubcategoryEntity.Id": "Ignore",
+      "TaskUniversalTemplateEntity.Id_TaskUniversalTemplateMatrixEntity.TemplateId": "Ignore",
+      "TaskUniversalTemplateEntity.Id_TaskUniversalTemplateLocalizedEntity.TemplateId": "Merge"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.UniversalTemplate.TaskUniversalTemplateLocalizedEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "TaskUniversalTemplateLocalizedEntity.TemplateId_TaskUniversalTemplateEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.TemplateService.ApiContainerEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "ApiContainerEntity.Id_ApiBlockEntity.ContainerId": "Merge",
+      "ApiContainerEntity.Id_ApiContainerTemplateValueEntity.ObjectId": "Merge",
+      "ApiContainerEntity.Id_ApiContainerToGroupEntity.ApiContainerId": "Merge",
+      "ApiContainerEntity.Id_ApiFolderEntity.ContainerId": "Merge",
+      "ApiContainerEntity.TemplateId_ApiTemplateEntity.Id": "Include",
+      "ApiContainerEntity.SmartExpressionId_SmartExpressionEntity.Id": "Include"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.TemplateService.ApiBlockEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "ApiBlockEntity.Id_ApiBlockTemplateValueEntity.ObjectId": "Merge",
+      "ApiBlockEntity.ContainerId_ApiContainerEntity.Id": "Ignore",
+      "ApiBlockEntity.FolderId_ApiFolderEntity.Id": "Ignore",
+      "ApiBlockEntity.TemplateId_ApiTemplateEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.TemplateService.ApiBlockTemplateValueEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "ApiBlockTemplateValueEntity.ObjectId_ApiBlockEntity.Id": "Ignore",
+      "ApiBlockTemplateValueEntity.TemplateKeyId_ApiTemplateKeyEntity.Id": "Ignore",
+      "ApiBlockTemplateValueEntity.ValueId_ApiTemplateValueEntity.Id": "Ignore",
+      "ApiBlockTemplateValueEntity.LocalizedValueId_LocalizedBusinessObjectEntity.Id": "Include"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.TemplateService.ApiContainerTemplateValueEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "ApiContainerTemplateValueEntity.ObjectId_ApiContainerEntity.Id": "Ignore",
+      "ApiContainerTemplateValueEntity.TemplateKeyId_ApiTemplateKeyEntity.Id": "Ignore",
+      "ApiContainerTemplateValueEntity.ValueId_ApiTemplateValueEntity.Id": "Ignore",
+      "ApiContainerTemplateValueEntity.LocalizedValueId_LocalizedBusinessObjectEntity.Id": "Include"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.TemplateService.ApiContainerToGroupEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "ApiContainerToGroupEntity.ApiContainerId_ApiContainerEntity.Id": "Ignore",
+      "ApiContainerToGroupEntity.GroupId_GroupEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.TemplateService.ApiFolderEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "ApiFolderEntity.Id_ApiBlockEntity.FolderId": "Ignore",
+      "ApiFolderEntity.ContainerId_ApiContainerEntity.Id": "Ignore",
+      "ApiFolderEntity.Id_ApiFolderTemplateValueEntity.ObjectId": "Merge",
+      "ApiFolderEntity.TemplateId_ApiTemplateEntity.Id": "Ignore",
+      "ApiFolderEntity.ParentFolderId_ApiFolderEntity.Id": "Ignore",
+      "ApiFolderEntity.Id_ApiFolderEntity.ParentFolderId": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.TemplateService.ApiFolderTemplateValueEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "ApiFolderTemplateValueEntity.ObjectId_ApiFolderEntity.Id": "Ignore",
+      "ApiFolderTemplateValueEntity.TemplateKeyId_ApiTemplateKeyEntity.Id": "Ignore",
+      "ApiFolderTemplateValueEntity.ValueId_ApiTemplateValueEntity.Id": "Ignore",
+      "ApiFolderTemplateValueEntity.LocalizedValueId_LocalizedBusinessObjectEntity.Id": "Include"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.TemplateService.ApiTemplateEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "ApiTemplateEntity.Id_ApiBlockEntity.TemplateId": "Ignore",
+      "ApiTemplateEntity.Id_ApiContainerEntity.TemplateId": "Ignore",
+      "ApiTemplateEntity.Id_ApiFolderEntity.TemplateId": "Ignore",
+      "ApiTemplateEntity.Id_ApiTemplateKeyEntity.TemplateId": "Merge"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.TemplateService.ApiTemplateKeyEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "ApiTemplateKeyEntity.Id_ApiBlockTemplateValueEntity.TemplateKeyId": "Ignore",
+      "ApiTemplateKeyEntity.Id_ApiContainerTemplateValueEntity.TemplateKeyId": "Ignore",
+      "ApiTemplateKeyEntity.Id_ApiFolderTemplateValueEntity.TemplateKeyId": "Ignore",
+      "ApiTemplateKeyEntity.TemplateId_ApiTemplateEntity.Id": "Ignore",
+      "ApiTemplateKeyEntity.Id_ApiTemplateValueEntity.KeyId": "Merge"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.TemplateService.ApiTemplateValueEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "ApiTemplateValueEntity.Id_ApiBlockTemplateValueEntity.ValueId": "Ignore",
+      "ApiTemplateValueEntity.Id_ApiContainerTemplateValueEntity.ValueId": "Ignore",
+      "ApiTemplateValueEntity.Id_ApiFolderTemplateValueEntity.ValueId": "Ignore",
+      "ApiTemplateValueEntity.KeyId_ApiTemplateKeyEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Tasks.TaskDataSourceEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "TaskDataSourceEntity.Id_StatsFromSearchEntity.TaskDataSourceId": "Ignore",
+      "TaskDataSourceEntity.SearchQueryId_StatsFromSearchEntity.Id": "Include",
+      "TaskDataSourceEntity.SmartSortId_SmartExpressionEntity.Id": "Include",
+      "TaskDataSourceEntity.SmartFilterId_SmartExpressionEntity.Id": "Include",
+      "TaskDataSourceEntity.Id_TaskFormCustomButtonEntity.UrlTaskDataSourceId": "Ignore",
+      "TaskDataSourceEntity.LuaScriptId_SmartScriptEntity.Id": "Include"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Report.StatsFromSearchEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "StatsFromSearchEntity.BlockID_PortalGridBlockEntity.Id": "Ignore",
+      "StatsFromSearchEntity.SmartFilterID_SmartExpressionEntity.Id": "Ignore",
+      "StatsFromSearchEntity.Id_StatsFromSearchRightEntity.StatQueryId": "Ignore",
+      "StatsFromSearchEntity.TaskDataSourceId_TaskDataSourceEntity.Id": "Ignore",
+      "StatsFromSearchEntity.UserId_UserEntity.Id": "Ignore",
+      "StatsFromSearchEntity.Id_TaskDataSourceEntity.SearchQueryId": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Spaces.SpacesActionsLogEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "SpacesActionsLogEntity.UserId_UserEntity.Id": "Ignore",
+      "SpacesActionsLogEntity.SpaceId_TaskEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Smart.SmartExpressionTestCaseEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "SmartExpressionTestCaseEntity.SmartExpressionId_SmartExpressionEntity.Id": "Include",
+      "SmartExpressionTestCaseEntity.LastModifiedUserId_UserEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Queue.CustomQueueActionsEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "CustomQueueActionsEntity.ActionPackID_ActionsPackEntity.Id": "Include",
+      "CustomQueueActionsEntity.SmartFilterID_SmartExpressionEntity.Id": "Include",
+      "CustomQueueActionsEntity.QueueId_QueueEntity.Id": "Include"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Queue.QueueEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "QueueEntity.Id_CustomQueueActionsEntity.QueueId": "Ignore",
+      "QueueEntity.Id_UniversalApiServiceSettingsEntity.QueueId": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Queue.MessageFlowsEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "MessageFlowsEntity.Id_MessageQueueEntity.Flow": "Ignore",
+      "MessageFlowsEntity.Id_UniversalApiServiceSettingsEntity.MessageFlowId": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.PublishedObjects.PublicationEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "PublicationEntity.Id_PublicationParameterEntity.PublicationId": "Merge",
+      "PublicationEntity.Id_PublicationObjectEntity.PublicationId": "Include",
+      "PublicationEntity.ExternalObjectId_ExternalObjectEntity.Guid": "Include"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.PublishedObjects.PublicationParameterEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "PublicationParameterEntity.PublicationId_PublicationEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.PublishedObjects.PublicationObjectEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "PublicationObjectEntity.PublicationId_PublicationEntity.Id": "Ignore",
+      "PublicationObjectEntity.ActionsPackId_ActionsPackEntity.Id": "Include"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Portal.PortalGridTemplateEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "PortalGridTemplateEntity.SystemTemplateId_PortalGridTemplateEntity.Id": "Ignore",
+      "PortalGridTemplateEntity.Id_PortalGridTemplateEntity.SystemTemplateId": "Ignore",
+      "PortalGridTemplateEntity.Id_PortalGridBlockEntity.TemplateId": "Merge",
+      "PortalGridTemplateEntity.Id_PortalGridTemplateGroupEntity.TemplateId": "Merge",
+      "PortalGridTemplateEntity.UserId_UserEntity.Id": "Ignore",
+      "PortalGridTemplateEntity.Id_PortalIncludeEntity.PortalId": "Merge",
+      "PortalGridTemplateEntity.Id_SettingEntity.UserProfilePortalId": "Ignore",
+      "PortalGridTemplateEntity.Id_UserGroupSettingEntity.PortalId": "Ignore",
+      "PortalGridTemplateEntity.Id_PortalGridUserTemplateEntity.TemplateId": "Ignore",
+      "_virtual_.PortalGridTemplatesToPortalGridBlocks": "Merge"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Portal.PortalGridBlockEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "PortalGridBlockEntity.Id_MenuItemEntity.PortalGridBlockId": "Merge",
+      "PortalGridBlockEntity.TemplateId_PortalGridTemplateEntity.Id": "Ignore",
+      "PortalGridBlockEntity.Id_PortalGridBlockGroupEntity.BlockId": "Merge",
+      "PortalGridBlockEntity.Id_PortalGridBlocksFilterEntity.PortalGridBlockId": "Merge",
+      "PortalGridBlockEntity.Id_PortalGridFilterParamBlockValueEntity.PortalGridBlockId": "Ignore",
+      "PortalGridBlockEntity.StartPageBlockId_StartPageBlockEntity.Id": "Ignore",
+      "PortalGridBlockEntity.Id_StatsFromSearchEntity.BlockID": "Ignore",
+      "PortalGridBlockEntity.UserId_UserEntity.Id": "Ignore",
+      "PortalGridBlockEntity.Id_BlockTemplateLinkEntity.BlockId": "Include",
+      "PortalGridBlockEntity.Id_ActionButtonInListEntity.PortalBlockId": "Merge",
+      "PortalGridBlockEntity.Id_PortalGridFoldersBlockEntity.BlockId": "Ignore",
+      "PortalGridBlockEntity.Id_PortalBlockIncludesEntity.BlockId": "Merge",
+      "PortalGridBlockEntity.LocalizedNameId_LocalizedBusinessObjectEntity.Id": "Include",
+      "PortalGridBlockEntity.WidgetNameSmartId_SmartExpressionEntity.Id": "Ignore",
+      "_virtual_.PortalGridBlockEntityToSmartExpressions": "Merge",
+      "_virtual_.PortalGridBlockToPortalGridOtherLocalization": "Merge"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.MenuItemEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "MenuItemEntity.Id_MenuItemEntity.ParentId": "Include",
+      "MenuItemEntity.NameSmartExpressionId_SmartExpressionEntity.Id": "Include",
+      "MenuItemEntity.UrlSmartExpressionId_SmartExpressionEntity.Id": "Include",
+      "MenuItemEntity.MenuItemTypeId_MenuItemTypeEntity.Id": "Ignore",
+      "MenuItemEntity.MenuId_MenuEntity.Id": "Ignore",
+      "MenuItemEntity.ParentId_MenuItemEntity.Id": "Ignore",
+      "MenuItemEntity.PortalGridBlockId_PortalGridBlockEntity.Id": "Ignore",
+      "MenuItemEntity.LocalizedNameId_LocalizedBusinessObjectEntity.Id": "Include"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Portal.PortalGridBlockGroupEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "PortalGridBlockGroupEntity.BlockId_PortalGridBlockEntity.Id": "Ignore",
+      "PortalGridBlockGroupEntity.GroupId_GroupEntity.Id": "Include"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Portal.PortalGridBlocksFilterEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "PortalGridBlocksFilterEntity.PortalGridBlockId_PortalGridBlockEntity.Id": "Ignore",
+      "PortalGridBlocksFilterEntity.PortalGridFilterId_FilterEntity.Id": "Include"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Portal.BlockTemplateLinkEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "BlockTemplateLinkEntity.BlockId_PortalGridBlockEntity.Id": "Ignore",
+      "BlockTemplateLinkEntity.TemplateId_BlockTemplateEntity.Id": "Include"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Portal.BlockTemplateEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "BlockTemplateEntity.Id_BlockTemplateLinkEntity.TemplateId": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Portal.PortalBlockIncludesEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "PortalBlockIncludesEntity.IncludeId_IncludeEntity.Id": "Include",
+      "PortalBlockIncludesEntity.BlockId_PortalGridBlockEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Portal.PortalGridTemplateGroupEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "PortalGridTemplateGroupEntity.GroupId_GroupEntity.Id": "Include",
+      "PortalGridTemplateGroupEntity.TemplateId_PortalGridTemplateEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Portal.PortalIncludeEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "PortalIncludeEntity.IncludeId_IncludeEntity.Id": "Include",
+      "PortalIncludeEntity.PortalId_PortalGridTemplateEntity.Id": "Ignore"
+    },
+    "TCDataAccess.Kernel.Domain.Entities.Portal.PortalGridOtherLocalizationEntity, TCDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+      "PortalGridOtherLocalizationEntity.LocalizedTitleId_LocalizedBusinessObjectEntity.Id": "Include"
+    }
+  }
+}
